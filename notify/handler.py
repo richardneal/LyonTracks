@@ -66,7 +66,7 @@ class NotifyHandler(webapp2.RequestHandler):
         text = 'Glass 299 Demo says you are in %s.' % building
         logging.info(text)
     else:
-        text = 'Python Quick Start says you are at %s by %s.' % \
+        text = 'Glass 299 Demo says you are at %s by %s.' % \
             (location.get('latitude'), location.get('longitude'))
     body = {
         'text': text,
