@@ -30,12 +30,40 @@ import util
 
 latlong = {((41.965491, 41.964765), (-71.18446, -71.18317)): "Old Science Center", ((41.967438, 41.967238), (-71.186934, -71.186289)): "The Sem"}
 
+# latlongPoints = {((x1,y1),(x2,y2),(x3,y3),(x4,y4)): "Place", ... }
+# make sure points are in order
+latlongPoints = {((0,4), (4, 4), (4, 0), (0,0)): "box"}
+
 class Mapper():
     def __init__(self, lat, longi):
         self.location = None
-        for key, value in latlong.iteritems():
-            if lat < key[0][0] and lat > key[0][1] and longi > key[1][0] and longi < key[1][1]:
+        for key, value in latlongPoints.iteritems():
+            if point_in_poly(lat, longi, key):
                 self.location = value
+
+
+    def point_in_poly(x,y,poly):
+        # Determine if a point is inside a given polygon or not
+        # Polygon is a list of (x,y) pairs. This function
+        # returns True or False.  The algorithm is called
+        # the "Ray Casting Method".
+
+        n = len(poly)
+        inside = False
+
+        p1x,p1y = poly[0]
+        for i in range(n+1):
+            p2x,p2y = poly[i % n]
+            if y > min(p1y,p2y):
+                if y <= max(p1y,p2y):
+                    if x <= max(p1x,p2x):
+                        if p1y != p2y:
+                            xints = (y-p1y)*(p2x-p1x)/(p2y-p1y)+p1x
+                        if p1x == p2x or x <= xints:
+                            inside = not inside
+            p1x,p1y = p2x,p2y
+
+        return inside
 
 
 class NotifyHandler(webapp2.RequestHandler):
