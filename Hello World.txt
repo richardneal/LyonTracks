@@ -1,0 +1,12 @@
+Getting Started: “hello world” document
+To begin programming for Google Glass:
+-	Go http://developes.google.com/glass/downloads 
+-	Click on the language you would like to use (python/php/java)
+-	Either clone or download zip and unzip
+-	Using the files downloaded you can run the starter kit on your Google glasses
+-	You can then go to Github and clone any of their sample projects
+To download our “hello world” Glass299 project:
+-	Go to Github
+-	Clone Glass299 or download the zip file
+-	You will then have a copy that will send you an update on where your location is
+	
