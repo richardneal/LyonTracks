@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<buildinglist>
+	<building name="The Sem">
+		<card type="facts">
+			<fact>Built in 1834</fact>
+			<fact>The first building constructed for Wheaton Female Seminary</fact>
+			<fact>The building was moved and re-purposed several times</fact>
+		</card>
+		<card type="facts">
+			<fact>The Sem currently is serving at the Computer Science Theme House.</fact>
+			<fact>Test 2</fact>
+			<fact>Test 3</fact>
+		</card>
+	</building>
+
+	<building name="Science Center">
+		<card type="facts">
+			<fact>Built in 1901</fact>
+			<fact>The first building constructed for Wheaton Female Seminary</fact>
+			<fact>The building was moved and re-purposed several times</fact>
+		</card>
+		<card type="facts">
+			<fact>The Sem currently is serving at the Computer Science Theme House.</fact>
+			<fact>Test 2</fact>
+			<fact>Test 3</fact>
+		</card>
+	</building>
+</buildinglist>

@@ -44,7 +44,7 @@ class _BatchCallback(object):
   """Class used to track batch request responses."""
 
   def __init__(self):
-    """Initialize a new _BatchCallbaclk object."""
+    """Initialize a new _BatchCallback object."""
     self.success = 0
     self.failure = 0
 
