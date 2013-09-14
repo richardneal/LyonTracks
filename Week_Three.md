@@ -18,4 +18,4 @@ The goal of the project is to have notifications pushed to the Google Glass when
 
 
 #Next week plans:
-Gather information, Alicia goes to archives and Evan Chessman is going to go to communications. Richard and Ju will work on getting that information onto the google glass. 
+Gather information, Alicia goes to archives and Evan Chessman is going to go to communications. Richard and Ju will work on getting that information onto the google glass. "mgraca@wheatonma.edu" <mgraca@wheatonma.edu>
