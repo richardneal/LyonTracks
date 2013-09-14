@@ -89,7 +89,7 @@ latlongpoints = {((41.966584,-71.184175),(41.966899,-71.183285),(41.966592,-71.1
 # make sure points are in order
 # latlongPoints = {((0,4), (4, 4), (4, 0), (0,0)): "box"}
 
-class Mapper():
+class Mapper:
     def __init__(self, lat, longi):
         self.location = None
         for key, value in latlongPoints.iteritems():
@@ -120,6 +120,18 @@ class Mapper():
 
         return inside
 
+class Building:
+    def __init__(self, name):
+        self.name = name
+        self.history = []
+        self.current = []
+
+    def add_history_fact(fact):
+        self.history.append(fact)
+
+    def add_current_fact(fact):
+        self.current.append(fact)
+
 
 class NotifyHandler(webapp2.RequestHandler):
   """Request Handler for notification pings."""
@@ -138,28 +150,59 @@ class NotifyHandler(webapp2.RequestHandler):
     elif data.get('collection') == 'timeline':
       self._handle_timeline_notification(data)
 
+  def get_xml_data(building_obj):
+    xmldoc = minidom.parse(building_obj.name + ".xml")
+    building = xmldoc.getElementsByTagName('building')
+
+    for card in building[0].getElementsByTagName('card'):
+        if card.attributes['type'].value == "facts":
+            if card.attributes['name'].value == "history":
+                for fact in card.getElementsByTagName("fact"):
+                    building_obj.add_history_fact(fact)
+            if card.attributes['name'].value == "current":
+                for fact in card.getElementsByTagName("fact"):
+                    building_obj.add_current_fact(fact)
+                
+
   def _handle_locations_notification(self, data):
     """Handle locations notification."""
     location = self.mirror_service.locations().get(id=data['itemId']).execute()
     latitude = location.get('latitude')
     longitude = location.get('longitude')
+
     mapper = Mapper(latitude, longitude)
     building = mapper.location
+
+
     if building:
+        building_info = Building(building)
+
         html = """<article>
                     <section>
                         <h1>You are in {0}</h1>
                     </section>
-                </article>""".format(building)
-        html += """<article>
-                    <section>
-                        <ul>
-                            <li>{0}</li>
-                            <li>{1}</li>
-                            <li>{2}</li>
-                        </ul>
-                    </section>
-                </article>""".format(fact1, fact2, fact3)
+                </article>""".format(building_info.name)
+        if building_info.history:
+            html += """<article>
+                        <section>
+                            <ul>
+                                <li>{0}</li>
+                                <li>{1}</li>
+                                <li>{2}</li>
+                            </ul>
+                        </section>
+                    </article>""".format(building_info.history[0], building_info.history[1], building_info.history[2])
+        if building_info.current:
+            html += """<article>
+                        <section>
+                            <ul>
+                                <li>{0}</li>
+                                <li>{1}</li>
+                                <li>{2}</li>
+                            </ul>
+                        </section>
+                    </article>""".format(building_info.current[0], building_info.current[1], building_info.current[2])
+        
         logging.info(html)
     else:
         html = 'Glass 299 Demo says you are at %s by %s.' % \
