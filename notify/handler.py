@@ -192,11 +192,25 @@ class NotifyHandler(webapp2.RequestHandler):
 
     if building.name:
 
-        f = open('./html_templates/spring_fling.html', 'w')
-        myHtml = f.read()
-        f.close()
+        html=''
 
-        html = myHtml.format(building.name)
+        for card in building.cards
+            f = open('./html_templates/' + card.kind + '.html', 'w')
+            myHtml = f.read()
+            f.close()
+
+
+            if card.kind = 'spring_fling'
+                html += myHtml.format(card.image, card.facts[0])
+            
+            if card.kind = 'secret_agent'
+                html += myHtml.format(card.image, card.facts[0], card.facts[1], card.facts[2])
+
+            
+            
+            
+            
+        #html = myHtml.format(building.card[)
 
    #     f = open('./html_templates/secret_agent.html', 'w')
    #     myHtml = f.read()
