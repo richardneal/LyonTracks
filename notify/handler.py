@@ -21,6 +21,7 @@ import io
 import json
 import logging
 import webapp2
+from xml.dom import minidom
 
 from apiclient.http import MediaIoBaseUpload
 from oauth2client.appengine import StorageByKeyName
@@ -89,16 +90,31 @@ latlongpoints = {((41.966584,-71.184175),(41.966899,-71.183285),(41.966592,-71.1
 # latlongPoints = {((x1,y1),(x2,y2),(x3,y3),(x4,y4)): "Place", ... }
 # make sure points are in order
 # latlongPoints = {((0,4), (4, 4), (4, 0), (0,0)): "box"}
+    
 
-class Mapper:
-    def __init__(self, lat, longi):
-        self.location = None
+class Building:
+    def __init__(self, latitude, longitude):
+        self.name = None
         for key, value in latlongpoints.iteritems():
-            if self.point_in_poly(lat, longi, key):
-                self.location = value
+            if self.point_in_poly(latitude, longitude, key):
+                self.name = value
 
+                self.history = []
+                self.current = []
 
-    def point_in_poly(self,x,y,poly):
+                self.get_xml_data()
+                
+
+    def add_history_fact(self, fact):
+        self.history.append(fact)
+
+    def add_current_fact(self, fact):
+        self.current.append(fact)
+
+    def add_image(self, img):
+        self.image = img
+
+    def point_in_poly(self, x, y, poly):
         # Determine if a point is inside a given polygon or not
         # Polygon is a list of (x,y) pairs. This function
         # returns True or False.  The algorithm is called
@@ -121,20 +137,20 @@ class Mapper:
 
         return inside
 
-class Building:
-    def __init__(self, name):
-        self.name = name
-        self.history = []
-        self.current = []
+    def get_xml_data(self):
+        xmldoc = minidom.parse("XML/" + self.name + ".xml")
+        building = xmldoc.getElementsByTagName('building')
 
-    def add_history_fact(fact):
-        self.history.append(fact)
+        self.add_image(building[0].getElementsByTagName('image')[0].attributes['url'].value)
 
-    def add_current_fact(fact):
-        self.current.append(fact)
-
-    def add_image(img):
-        self.image = img
+        for card in building[0].getElementsByTagName('card'):
+            if card.attributes['type'].value == "facts":
+                if card.attributes['name'].value == "history":
+                    for fact in card.getElementsByTagName("fact"):
+                        self.add_history_fact(fact.childNodes[0].nodeValue)
+                if card.attributes['name'].value == "current":
+                    for fact in card.getElementsByTagName("fact"):
+                        self.add_current_fact(fact.childNodes[0].nodeValue)
 
 
 class NotifyHandler(webapp2.RequestHandler):
@@ -153,21 +169,6 @@ class NotifyHandler(webapp2.RequestHandler):
       self._handle_locations_notification(data)
     elif data.get('collection') == 'timeline':
       self._handle_timeline_notification(data)
-
-  def get_xml_data(building_obj):
-    xmldoc = minidom.parse(building_obj.name + ".xml")
-    building = xmldoc.getElementsByTagName('building')
-
-    building_obj.add_image(building[0].getElementsByTagName('image')[0].attributes['url'].value)
-
-    for card in building[0].getElementsByTagName('card'):
-        if card.attributes['type'].value == "facts":
-            if card.attributes['name'].value == "history":
-                for fact in card.getElementsByTagName("fact"):
-                    building_obj.add_history_fact(fact)
-            if card.attributes['name'].value == "current":
-                for fact in card.getElementsByTagName("fact"):
-                    building_obj.add_current_fact(fact)
                 
 
   def _handle_locations_notification(self, data):
@@ -176,19 +177,16 @@ class NotifyHandler(webapp2.RequestHandler):
     latitude = location.get('latitude')
     longitude = location.get('longitude')
 
-    mapper = Mapper(latitude, longitude)
-    building = mapper.location
+    building = Building(latitude, longitude)
 
-    if building:
-        building_info = Building(building)
-        get_xml_data(building_info)
+    if building.name:
 
         html = """<article>
                     <section>
                         <h1>You are in {0}</h1>
                     </section>
-                </article>""".format(building_info.name)
-        if building_info.history:
+                </article>""".format(building.name)
+        if building.history:
             html += """<article>
                         <section>
                             <ul>
@@ -197,8 +195,8 @@ class NotifyHandler(webapp2.RequestHandler):
                                 <li>{2}</li>
                             </ul>
                         </section>
-                    </article>""".format(building_info.history[0], building_info.history[1], building_info.history[2])
-        if building_info.current:
+                    </article>""".format(building.history[0], building.history[1], building.history[2])
+        if building.current:
             html += """<article>
                         <section>
                             <ul>
@@ -207,7 +205,7 @@ class NotifyHandler(webapp2.RequestHandler):
                                 <li>{2}</li>
                             </ul>
                         </section>
-                    </article>""".format(building_info.current[0], building_info.current[1], building_info.current[2])
+                    </article>""".format(building.current[0], building.current[1], building.current[2])
         
         logging.info(html)
     else:

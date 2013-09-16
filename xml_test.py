@@ -9,7 +9,13 @@ def get_xml_data(building_name="Wheaton College"):
 
     for card in building[0].getElementsByTagName('card'):
     	if card.attributes['type'].value == "facts":
-    		for fact in card.getElementsByTagName("fact"):
-    			print fact.childNodes[0].nodeValue
+    		if card.attributes['name'].value == "history":
+                    for fact in card.getElementsByTagName("fact"):
+                        print fact.childNodes[0].nodeValue
+                if card.attributes['name'].value == "current":
+                    for fact in card.getElementsByTagName("fact"):
+                        print fact.childNodes[0].nodeValue
+                
+    			
 
 get_xml_data()
