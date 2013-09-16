@@ -82,7 +82,8 @@ latlongpoints = {((41.966584,-71.184175),(41.966899,-71.183285),(41.966592,-71.1
                 ((41.968141,-71.187305), (41.968191,-71.187195), (41.968002,-71.187045), (41.96796,-71.18719)): "Nursery School",
                 ((41.969282,-71.188166), (41.969523,-71.187611), (41.969178,-71.187391), (41.968937,-71.188051)): "Clark Center",
                 ((41.967937,-71.186066), (41.967975,-71.185943), (41.9677,-71.185774), (41.967658,-71.185905)): "Metcalf",
-                ((41.967794,-71.186444), (41.967844,-71.186323), (41.967571,-71.186146), (41.967525,-71.186267)): "Kilham"}
+                ((41.967794,-71.186444), (41.967844,-71.186323), (41.967571,-71.186146), (41.967525,-71.186267)): "Kilham",
+                ((41.969995,-71.190441), (41.97041,-71.182501), (41.966493,-71.176386), (41.963908,-71.187115)): "Wheaton College"}
 
 
 # latlongPoints = {((x1,y1),(x2,y2),(x3,y3),(x4,y4)): "Place", ... }
@@ -92,12 +93,12 @@ latlongpoints = {((41.966584,-71.184175),(41.966899,-71.183285),(41.966592,-71.1
 class Mapper:
     def __init__(self, lat, longi):
         self.location = None
-        for key, value in latlongPoints.iteritems():
-            if point_in_poly(lat, longi, key):
+        for key, value in latlongpoints.iteritems():
+            if self.point_in_poly(lat, longi, key):
                 self.location = value
 
 
-    def point_in_poly(x,y,poly):
+    def point_in_poly(self,x,y,poly):
         # Determine if a point is inside a given polygon or not
         # Polygon is a list of (x,y) pairs. This function
         # returns True or False.  The algorithm is called
@@ -173,7 +174,6 @@ class NotifyHandler(webapp2.RequestHandler):
     mapper = Mapper(latitude, longitude)
     building = mapper.location
 
-
     if building:
         building_info = Building(building)
 
@@ -209,7 +209,7 @@ class NotifyHandler(webapp2.RequestHandler):
             (location.get('latitude'), location.get('longitude'))
     body = {
         'text': html,
-        #'location': location,
+        'location': location,
         #'menuItems': [{'action': 'NAVIGATE'}],
         'notification': {'level': 'DEFAULT'}
     }
