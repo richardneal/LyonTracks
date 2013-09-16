@@ -208,7 +208,7 @@ class NotifyHandler(webapp2.RequestHandler):
         html = 'Glass 299 Demo says you are at %s by %s.' % \
             (location.get('latitude'), location.get('longitude'))
     body = {
-        'text': html,
+        'html': html,
         'location': location,
         #'menuItems': [{'action': 'NAVIGATE'}],
         'notification': {'level': 'DEFAULT'}
