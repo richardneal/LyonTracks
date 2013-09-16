@@ -174,6 +174,9 @@ class NotifyHandler(webapp2.RequestHandler):
     mapper = Mapper(latitude, longitude)
     building = mapper.location
 
+    f = open('html_templates/' + building + '.html', 'w')
+    myHtml = f.read()
+
     if building:
         building_info = Building(building)
 
