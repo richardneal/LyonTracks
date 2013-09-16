@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<building name="The Sem">
+	<card type="facts" name="history">
+		<fact>Founded in 1834</fact>
+		<fact>Literally the best college ever</fact>
+		<fact>President Crutcher rides to class on a dinosaur</fact>
+	</card>
+	<card type="facts" name="current">
+		<fact>Wheaton wins at every sport.</fact>
+		<fact>Every time</fact>
+		<fact>Without fail</fact>
+	</card>
+</building>

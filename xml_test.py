@@ -1,7 +1,7 @@
 from xml.dom import minidom
 
 def get_xml_data(building_name="The Sem"):
-    xmldoc = minidom.parse(building_name + ".xml")
+    xmldoc = minidom.parse("XML/" + building_name + ".xml")
     building = xmldoc.getElementsByTagName('building')
 
     for card in building[0].getElementsByTagName('card'):
