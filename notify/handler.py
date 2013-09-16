@@ -133,6 +133,9 @@ class Building:
     def add_current_fact(fact):
         self.current.append(fact)
 
+    def add_image(img):
+        self.image = img
+
 
 class NotifyHandler(webapp2.RequestHandler):
   """Request Handler for notification pings."""
@@ -154,6 +157,8 @@ class NotifyHandler(webapp2.RequestHandler):
   def get_xml_data(building_obj):
     xmldoc = minidom.parse(building_obj.name + ".xml")
     building = xmldoc.getElementsByTagName('building')
+
+    building_obj.add_image(building[0].getElementsByTagName('image')[0].attributes['url'].value)
 
     for card in building[0].getElementsByTagName('card'):
         if card.attributes['type'].value == "facts":
@@ -179,6 +184,7 @@ class NotifyHandler(webapp2.RequestHandler):
 
     if building:
         building_info = Building(building)
+        get_xml_data(building_info)
 
         html = """<article>
                     <section>
