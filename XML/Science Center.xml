@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<building name="Wheaton College">
+<building name="Science Center">
 		<card type="spring_fling">
-            <image url="http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg"></image>
-            <text>Mary Lyon</text>
+            <image url="http://wheatoncollege.edu/exhibit-mim/files/2011/06/Science_2.jpg"></image>
+            <text>Science Center</text>
         </card>
         <!--<card type="facts">
 			<fact>Built in 1849.</fact>
@@ -15,14 +15,14 @@
 			<fact>Test 3</fact>
 		</card>-->
         <card type ="secret_agent">
-            <image url="http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg"></image>
+            <image url="http://wheatoncollege.edu/exhibit-mim/files/2011/06/Science_6.jpg"></image>
             <fact>Built by George Washington and Ron Crutcher in 1776 after crossing the Delaware.</fact>
             <fact>Yolo</fact>
             <fact>Test</fact>
         </card>
         <card type ="spring_fling">
-            <image url="http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg"></image>
-            <text>Literally the best college ever.</text>
+            <image url="http://wheatoncollege.edu/college-history/files/2011/01/Science_4.jpg"></image>
+            <text>Probably the best science center ever.</text>
         </card>
         
 	</building>

@@ -95,15 +95,16 @@ class Card:
     def __init__(self, building_name, card_kind):
         self.kind = card_kind
         self.name = building_name
-        self.fact = []
+        self.facts = []
 
     def add_fact(self, fact):
-        self.fact.append(fact)
+        self.facts.append(fact)
 
-    def add_img():
-        self.image.append(img_url)
+    def add_img(self, img_url):
+        self.image = img_url
 
-        
+    def add_text(self, text):
+        self.text = text
     
 
 class Building:
@@ -111,11 +112,13 @@ class Building:
         #self.name = None
         for key, value in latlongpoints.iteritems():
             if self.point_in_poly(latitude, longitude, key):
-                self.cards = Card[]
+
+                self.name = value
+                self.cards = []
 
                 self.get_xml_data()
 
-    def add_card(card):
+    def add_card(self, card):
         self.cards.append(card)
 
     def point_in_poly(self, x, y, poly):
@@ -145,18 +148,20 @@ class Building:
         xmldoc = minidom.parse("XML/" + self.name + ".xml")
         building = xmldoc.getElementsByTagName('building')
 
+        name = building[0].attributes["name"].value
 
         for card in building[0].getElementsByTagName('card'):
             if card.attributes['type'].value == "spring_fling":
-                type_card = Card(card.getElementByTagName('image'), card.attributes['type'].value)
-                for image in card.getElementByTagName('image')
-                    type_card.add_image(image)
+                type_card = Card(name, "spring_fling")
+                type_card.add_img(card.getElementsByTagName("image")[0].attributes['url'].value)
+                type_card.add_text(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
+            if card.attributes['type'].value == "secret_agent":
+                type_card = Card(name, "secret_agent")
+                type_card.add_img(card.getElementsByTagName("image")[0].attributes['url'].value)
                 for fact in card.getElementsByTagName("fact"):
                     type_card.add_fact(fact.childNodes[0].nodeValue)
 
-                self.add_card(type_card)
-
-
+            self.add_card(type_card)
 
 
 class NotifyHandler(webapp2.RequestHandler):
@@ -185,51 +190,22 @@ class NotifyHandler(webapp2.RequestHandler):
 
     building = Building(latitude, longitude)
 
-    if building:
-        building_info = Building(building)
-        get_xml_data(building_info)
-
-
     if building.name:
 
         html=''
 
-        for card in building.cards
-            f = open('./html_templates/' + card.kind + '.html', 'w')
+        for card in building.cards:
+            f = open('./html_templates/' + card.kind + '.html', 'r')
             myHtml = f.read()
             f.close()
 
 
-            if card.kind = 'spring_fling'
-                html += myHtml.format(card.image, card.facts[0])
+            if card.kind == 'spring_fling':
+                html += myHtml.format(card.image, card.text)
             
-            if card.kind = 'secret_agent'
+            if card.kind == 'secret_agent':
                 html += myHtml.format(card.image, card.facts[0], card.facts[1], card.facts[2])
 
-            
-            
-            
-            
-        #html = myHtml.format(building.card[)
-
-   #     f = open('./html_templates/secret_agent.html', 'w')
-   #     myHtml = f.read()
-   #     f.close()
-
-   #     if building.history:
-   #         html += myHtml.format(building.history[0], building.history[1], building.history[2])
-
-   #     if building.current:
-   #         html += """<article>
-   #                     <section>
-   #                         <ul>
-   #                             <li>{0}</li>
-   #                             <li>{1}</li>
-   #                             <li>{2}</li>
-   #                         </ul>
-   #                     </section>
-   #                 </article>""".format(building.current[0], building.current[1], building.current[2])
-   #     
         logging.info(html)
     else:
         html = 'Glass 299 Demo says you are at %s by %s.' % \
