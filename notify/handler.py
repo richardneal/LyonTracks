@@ -191,14 +191,12 @@ class NotifyHandler(webapp2.RequestHandler):
     building = Building(latitude, longitude)
 
     if building.name:
-
-        html=''
+        html = ""
 
         for card in building.cards:
             f = open('./html_templates/' + card.kind + '.html', 'r')
             myHtml = f.read()
             f.close()
-
 
             if card.kind == 'spring_fling':
                 html += myHtml.format(card.image, card.text)
@@ -208,7 +206,7 @@ class NotifyHandler(webapp2.RequestHandler):
 
         logging.info(html)
     else:
-        html = 'Glass 299 Demo says you are at %s by %s.' % \
+        html = 'Lyon Tracks says you are at %s by %s.' % \
             (location.get('latitude'), location.get('longitude'))
     body = {
         'html': html,

@@ -1,28 +1,18 @@
 <?xml version="1.0"?>
 <building name="Science Center">
-		<card type="spring_fling">
-            <image url="http://wheatoncollege.edu/exhibit-mim/files/2011/06/Science_2.jpg"></image>
-            <text>Science Center</text>
-        </card>
-        <!--<card type="facts">
-			<fact>Built in 1849.</fact>
-			<fact>Mary Lyon was originally named Seminary Hall.</fact>
-			<fact>In 1878, the building was expanded to its current size.</fact>
-		</card>
-		<card type="facts">
-			<fact>Seminary Hall originally held all of the classes at Wheaton.</fact>
-			<fact></fact>
-			<fact>Test 3</fact>
-		</card>-->
-        <card type ="secret_agent">
-            <image url="http://wheatoncollege.edu/exhibit-mim/files/2011/06/Science_6.jpg"></image>
-            <fact>Built by George Washington and Ron Crutcher in 1776 after crossing the Delaware.</fact>
-            <fact>Yolo</fact>
-            <fact>Test</fact>
-        </card>
-        <card type ="spring_fling">
-            <image url="http://wheatoncollege.edu/college-history/files/2011/01/Science_4.jpg"></image>
-            <text>Probably the best science center ever.</text>
-        </card>
-        
-	</building>
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/exhibit-mim/files/2011/06/Science_2.jpg"></image>
+        <text>Science Center</text>
+    </card>
+    <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/exhibit-mim/files/2011/06/Science_6.jpg"></image>
+        <fact>Built by Fred Kollett in 1776 after crossing the Delaware.</fact>
+        <fact>All science originated in the Science Center.</fact>
+        <fact>Test</fact>
+    </card>
+    <card type ="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Science_4.jpg"></image>
+        <text>Probably the best science center ever.</text>
+    </card>
+    
+</building>
