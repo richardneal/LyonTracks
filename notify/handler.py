@@ -49,10 +49,17 @@ class Card:
 
 class Building:
     def __init__(self, latitude, longitude):
+<<<<<<< Updated upstream
         for key, value in coordinates.latlongpoints.iteritems():
             if self.point_in_poly(latitude, longitude, key):
                 self.name = value
                 self.cards = []
+=======
+        self.name = None
+        self.cards = Card[]
+        for key, value in latlongpoints.iteritems():
+            if self.point_in_poly(latitude, longitude, key):
+>>>>>>> Stashed changes
 
                 self.get_xml_data()
                 break
