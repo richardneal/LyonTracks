@@ -127,6 +127,7 @@ class NotifyHandler(webapp2.RequestHandler):
     building = Building(latitude, longitude)
 
     if hasattr(building, 'name'):
+        logging.info("Located user at %s", building.name)
         html = ""
         for card in building.cards:
             f = open('./html_templates/' + card.kind + '.html', 'r')
@@ -138,10 +139,11 @@ class NotifyHandler(webapp2.RequestHandler):
             elif card.kind == "secret_agent":
                 html += myHtml.format(card.image, card.facts[0], card.facts[1], card.facts[2])
 
-        logging.info(html)
+
     else:
         html = 'Lyon Tracks says you are at %s by %s.' % \
             (latitude, longitude)
+    logging.info("Posting location HTML to the Glass: %s", html)
     body = {
         'html': html,
         'location': location,
