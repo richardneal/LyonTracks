@@ -94,7 +94,8 @@ class Building:
                 type_card.add_image(card.getElementsByTagName("image")[0].attributes['url'].value)
                 type_card.add_text(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
             if card.attributes['type'].value == "secret_agent":
-                type_card.set_kind("secret_agent")
+                #type_card.set_kind("secret_agent")
+                type_card.set_kind("secret_agent_num2")
                 type_card.add_image(card.getElementsByTagName("image")[0].attributes['url'].value)
                 for fact in card.getElementsByTagName("fact"):
                     type_card.add_fact(fact.childNodes[0].nodeValue)
@@ -136,7 +137,7 @@ class NotifyHandler(webapp2.RequestHandler):
 
             if card.kind == "spring_fling":
                 html += myHtml.format(card.image, card.text)
-            elif card.kind == "secret_agent":
+            elif card.kind == "secret_agent_num2": # testing if secret agent tmplate 2 works change back to secret agent if this doesn't work
                 html += myHtml.format(card.image, card.facts[0], card.facts[1], card.facts[2])
 
 
