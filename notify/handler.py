@@ -106,10 +106,10 @@ class Building:
                 type_card.add_image(card.getElementsByTagName("image")[0].attributes['url'].value)
                 for fact in card.getElementsByTagName("fact"):
                     type_card.add_fact(fact.childNodes[0].nodeValue)            
-            if card.attribute['type'].value =="paragraph":
-                typer_card.set_kind("paragraph")
+            if card.attributes['type'].value =="paragraph":
+                type_card.set_kind("paragraph")
                 type_card.add_text(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
-            if card.attribute["type"].value == "modified_abe":
+            if card.attributes["type"].value == "modified_abe":
                 type_card.setkind("modified_abe")
                 type_card.add_image(card.getElementsByTagName("image")[0].attrtibutes['url'].value)
                 type_card.add_text(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
