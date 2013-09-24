@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<building name="Old Observatory">
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Observatory_1.jpg"></image>
+        <text>Old Observatory</text>
+    </card>
+    <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/observatory_2.jpg"></image>
+        <fact>Designed and built in 1917 by Wheaton workmen</fact>
+        <fact>The location was chosen because it afforded an excellent horizon</fact>
+        <fact>Test</fact>
+    </card>
+    <card type ="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Science_4.jpg"></image>
+        <text>Probably the best science center ever.</text>
+    </card>
+    
+</building>
