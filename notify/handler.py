@@ -49,17 +49,10 @@ class Card:
 
 class Building:
     def __init__(self, latitude, longitude):
-<<<<<<< Updated upstream
         for key, value in coordinates.latlongpoints.iteritems():
             if self.point_in_poly(latitude, longitude, key):
                 self.name = value
                 self.cards = []
-=======
-        self.name = None
-        self.cards = Card[]
-        for key, value in latlongpoints.iteritems():
-            if self.point_in_poly(latitude, longitude, key):
->>>>>>> Stashed changes
 
                 self.get_xml_data()
                 break
@@ -110,7 +103,7 @@ class Building:
                 type_card.set_kind("paragraph")
                 type_card.add_text(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
             if card.attributes["type"].value == "modified_abe":
-                type_card.setkind("modified_abe")
+                type_card.set_kind("modified_abe")
                 type_card.add_image(card.getElementsByTagName("image")[0].attrtibutes['url'].value)
                 type_card.add_text(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
             self.add_card(type_card)
