@@ -28,7 +28,7 @@ from main_handler import MAIN_ROUTES
 from notify.handler import NOTIFY_ROUTES
 from oauth.handler import OAUTH_ROUTES
 from signout.handler import SIGNOUT_ROUTES
-from Images import IMAGES_ROUTES
+from Images.handler import IMAGES_ROUTES
 
 
 ROUTES = (
