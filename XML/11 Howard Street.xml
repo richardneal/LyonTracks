@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<building name="11 Howard Street">
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/02/11Howard_1.jpg"></image>
+        <text>11 Howard Street</text>
+    </card>
+    <card type ="paragraph">
+        <fact>Deeded to wheaton in 1894, 11 Howard street was used as an infirmary, because of its "airy rooms and sunny exposure". Now the building is used a student house.</fact>
+    </card>
+</building>
