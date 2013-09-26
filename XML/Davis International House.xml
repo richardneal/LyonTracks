@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<building name="Science Center">
+	<card type="spring_fling">
+        <image url=""></image>
+        <text>Davis International House</text>
+    </card>
+    <card type ="secret_agent">
+        <image url=""></image>
+        <fact>The attached carriage house was once the "Campus Shop".</fact>
+        <fact>The "Campus Shop" was utilized form 1948 until 1992</fact>
+        <fact>After the Davis House was used as faculty housing</fact>
+    </card>
+    <card type ="spring_fling">
+        <image url=""></image>
+        <text>the Davis House is now a student House </text>
+    </card>
+    
+</building>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<building name="Science Center">
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/book_1.jpg"></image>
+        <text>Old Town Hall Bookstore</text>
+    </card>
+    <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/book_2.jpg"></image>
+        <fact>Harriet Augusta Newcomb presented the Old Town Hall to the town in 1882</fact> <!-- need to reword -->
+        <fact>The Building acted as a community center, holding various events.</fact>
+        <fact>The first movie shown here was the 1923  Lon Chaney version of The Hunchback of Notre Dame.</fact>
+    </card>
+    <card type ="modified_abe">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/book_1.jpg"></image>
+        <text>By 1947 the building had fallen into disrepair. In 1949 the town clerk, treasure and collector had an office in the Town Hall.</text>
+    </card>
+    <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/book_2.jpg"></image>
+        <fact>At the end of the 70s the town moved its offices and the building became neglected.</fact> 
+        <fact>The college bought the building in 1982 and used it as storage.</fact>
+        <fact>The College sold the building in 1986 to only be bought back in 1990</fact>
+    </card>
+    <card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/book_2.jpg"></image>
+        <text>Old Town Hall Bookstore opened in 1992.</text>
+    </card>
+    
+</building>
