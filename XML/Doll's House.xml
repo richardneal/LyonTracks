@@ -14,4 +14,8 @@
     <card type="paragraph">
         <imgUrl>The Doll's House also owes its identity to Dr. Park's joy in naming things. When it was converted to a dormitory, Dr. Park thought its rooms were so small that students would have to be the size of dolls to enjoy them.</imgUrl>
     </card>
+    <card type="secret_agent">
+        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/dolls_house_1.jpg</imgUrl>
+        <fact>Doll's house now houses the Admissions office.</fact>
+    </card>
 </building>
