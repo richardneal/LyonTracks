@@ -1,10 +1,21 @@
 <building name="Balfour-Hood Campus Center">
     <card type="spring_fling">
         <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/Balfourhood_center_12.jpg</imgUrl>
-        <fact>Balfour-Hood Campus Center</fact>
+        <text>Balfour-Hood Campus Center</text>
     </card>
-    <card type="secret_agent">
-        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/02/gebbie_interior_4.jpg</imgUrl>
-        <fact>Built in 1992, Gebbie was the first residence hall designed to be fully handicapped accessible.</fact>
+    <card type="modified_abe">
+        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/motor_entrance_3.jpg</imgUrl>
+        <text>Originally called the Student Alumni Building (SAB), Balfour was the first building in the Modern, or International, style at Wheaton.</text>
+    </card>
+    <card type="modified_abe">
+        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/Balfourhood_center_12.jpg</imgUrl>
+        <text>Balfour is now used for a variety of student events including contra dances, acapella group showcases, and much more.</text>
+    </card>
+    <card type="paragraph">
+        <text>The Balfour-Hood cafe is open every weekday, and gives a pleasant alternative to dining hall food.</text>
+    </card>
+    <card type="modified_abe">
+        <imgUrl></imgUrl>
+        <text>The Loft, open nightly 2AM, serves students beer, nachos, and other late night favorites.</text>
     </card>
 </building>
