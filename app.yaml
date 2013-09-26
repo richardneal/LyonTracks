@@ -20,20 +20,20 @@ libraries:
 
 # image files
 - url: /Images/(.*\.(bmp|gif|ico|jpeg|jpg|png))
-  static_files: static/\1
-  upload: static/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+#  static_files: static/\1
+#  upload: static/(.*\.(bmp|gif|ico|jpeg|jpg|png))
 
 skip_files:
 # Default patterns skipped by App Engine, which must be repeated since
 # specifying skip_files overrides them otherwise.  See
 # https://developers.google.com/appengine/docs/python/config/appconfig#Skipping_Files.
-#- ^(.*/)?app\.yaml
-#- ^(.*/)?app\.yml
-#- ^(.*/)?index\.yaml
-#- ^(.*/)?index\.yml
-#- ^(.*/)?#.*#
-#- ^(.*/)?.*~
-#- ^(.*/)?.*\.py[co]
-#- ^(.*/)?.*/RCS/.*
-#- ^(.*/)?\..*
-#- ^.*\.pyc$
+- ^(.*/)?app\.yaml
+- ^(.*/)?app\.yml
+- ^(.*/)?index\.yaml
+- ^(.*/)?index\.yml
+- ^(.*/)?#.*#
+- ^(.*/)?.*~
+- ^(.*/)?.*\.py[co]
+- ^(.*/)?.*/RCS/.*
+- ^(.*/)?\..*
+- ^.*\.pyc$
