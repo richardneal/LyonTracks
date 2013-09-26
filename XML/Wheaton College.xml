@@ -6,9 +6,9 @@
     </card>
     <card type ="secret_agent">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg"></image>
-        <fact>Built by Ron Crutcher in 1776 after crossing the Delaware.</fact>
-        <fact>Peacock Pond is the prettiest pond ever.</fact>
-        <fact>Test</fact>
+        <text>Built by Ron Crutcher in 1776 after crossing the Delaware.</text>
+        <text>Peacock Pond is the prettiest pond ever.</text>
+        <text>Test</text>
     </card>
     <card type ="spring_fling">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg"></image>
