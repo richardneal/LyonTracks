@@ -97,7 +97,7 @@ class Building:
                 type_card.set_kind("secret_agent")
                 #type_card.set_kind("secret_agent_num2")
                 type_card.add_image(card.getElementsByTagName("image")[0].attributes['url'].value)
-                for fact in card.getElementsByTagName("fact"):
+                for text in card.getElementsByTagName("text"):
                     type_card.add_fact(fact.childNodes[0].nodeValue)            
             if card.attributes['type'].value =="paragraph":
                 type_card.set_kind("paragraph")
