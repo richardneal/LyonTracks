@@ -2,11 +2,7 @@
 
 <building name="Mary Lyon Hall">
 		<card type="spring_fling">
-<<<<<<< HEAD
-            <imgUrl>./Images/mary_lyon_1.jpg</imgUrl>
-=======
             <image url="./Images/mary_lyon_1.jpg"></image>
->>>>>>> fixed a few things
             <text>Mary Lyon</text>
         </card>
         <!--<card type="facts">
@@ -20,20 +16,12 @@
 			<text>Test 3</text>
 		</card>-->
         <card type ="secret_agent">
-<<<<<<< HEAD
-            <imgUrl>./Images/mary_lyon_1885.jpg</imgUrl>
-=======
             <image url="./Images/mary_lyon_1885.jpg"></image>
->>>>>>> fixed a few things
             <text>Built in 1849, Mary Lyon was originally named New Seminary Hall.</text>
             <text>All academics were held in Mary Lyon until the addition of Knapton in 1911.</text>
         </card>
         <card type ="spring_fling">
-<<<<<<< HEAD
-            <imgUrl>./Images/mary_lyon_stairs_1.jpg</imgUrl>
-=======
             <image url="./Images/mary_lyon_stairs_1.jpg"></image>
->>>>>>> fixed a few things
             <text>The building is currently used for some larger seminars and exams.</text>
         </card>
         

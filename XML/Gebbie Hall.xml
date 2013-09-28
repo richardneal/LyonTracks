@@ -1,18 +1,10 @@
 <building name="Gebbie Hall">
     <card type="spring_fling">
-<<<<<<< HEAD
-        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/02/Gebbie_Hall_10.jpg</imgUrl>
-        <text>Gebbie Hall</text>
-    </card>
-    <card type="modified_abe">
-        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/02/gebbie_interior_4.jpg</imgUrl>
-=======
         <image url="http://wheatoncollege.edu/college-history/files/2011/02/Gebbie_Hall_10.jpg"></image>
         <text>Gebbie Hall</text>
     </card>
     <card type="modified_abe">
         <image url="http://wheatoncollege.edu/college-history/files/2011/02/gebbie_interior_4.jpg"></image>
->>>>>>> fixed a few things
         <text>Built in 1992, Gebbie was the first residence hall designed to be fully handicapped accessible.</text>
     </card>
 </building>

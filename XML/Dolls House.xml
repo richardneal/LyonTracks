@@ -1,16 +1,5 @@
 <building name="Doll's House">
     <card type="spring_fling">
-<<<<<<< HEAD:XML/Dolls House.xml
-        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/dolls_house_1.jpg</imgUrl>
-        <text>Doll's House</text>
-    </card>
-    <card type="secret_agent">
-        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/Laundry_2.jpg</imgUrl>
-        <text>From 1904 until 1925, the building served as the power house and laundry.</text>
-    </card>
-    <card type="modified_abe">
-        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/Laundry_1.jpg</imgUrl>
-=======
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/dolls_house_1.jpg"></image>
         <text>Doll's House</text>
     </card>
@@ -20,18 +9,13 @@
     </card>
     <card type="modified_abe">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/Laundry_1.jpg"></image>
->>>>>>> fixed a few things:XML/Doll's House.xml
         <text>In 1925, Doll's House was converted to a residence hall, called "Tower Hall".</text>
     </card>
     <card type="paragraph">
         <text>The Doll's House also owes its identity to Dr. Park's joy in naming things. When it was converted to a dormitory, Dr. Park thought its rooms were so small that students would have to be the size of dolls to enjoy them.</text>
     </card>
     <card type="secret_agent">
-<<<<<<< HEAD:XML/Dolls House.xml
-        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/dolls_house_1.jpg</imgUrl>
-=======
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/dolls_house_1.jpg"></image>
->>>>>>> fixed a few things:XML/Doll's House.xml
         <text>Doll's house now houses the Admissions office.</text>
     </card>
 </building>
