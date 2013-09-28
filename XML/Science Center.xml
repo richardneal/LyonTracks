@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <building name="Science Center">
 	<card type="spring_fling">
-        <imgUrl>http://wheatoncollege.edu/exhibit-mim/files/2011/06/Science_2.jpg</imgUrl>
+        <image url="http://wheatoncollege.edu/exhibit-mim/files/2011/06/Science_2.jpg"></image>
         <text>Science Center</text>
     </card>
     <card type ="secret_agent">
-        <imgUrl>http://wheatoncollege.edu/exhibit-mim/files/2011/06/Science_6.jpg</imgUrl>
-        <fact>Science classes and laboratories were moved to the Science Center in 1968 from the 1911 Science Hall, now Knapton Hall</fact>
+        <image url="http://wheatoncollege.edu/exhibit-mim/files/2011/06/Science_6.jpg"></image>
+        <text>Science classes and laboratories were moved to the Science Center in 1968 from the 1911 Science Hall, now Knapton Hall</text>
     </card>
     <card type="paragraph">
-        <fact>Though most classes have been moved to the refinished basement or much newer Mars Center for Science and Technology, a few larger lectures are still held in this part of the Science Center. </fact>
+        <text>Though most classes have been moved to the refinished basement or much newer Mars Center for Science and Technology, a few larger lectures are still held in this part of the Science Center. </text>
     </card>
     <card type="paragraph">
-        <fact>A few choice rooms have been designated as maker spaces, textile rooms, and machine shops, where students can use provided resources to test their creativity and create something new.</fact>
+        <text>A few choice rooms have been designated as maker spaces, textile rooms, and machine shops, where students can use provided resources to test their creativity and create something new.</text>
     </card>
     
 </building>

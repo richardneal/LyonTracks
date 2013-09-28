@@ -6,9 +6,9 @@
     </card>
     <card type ="secret_agent">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/observatory_2.jpg"></image>
-        <fact>Designed and built in 1917 by Wheaton workmen</fact>
-        <fact>The location was chosen because it afforded an excellent horizon</fact>
-        <fact>Test</fact>
+        <text>Designed and built in 1917 by Wheaton workmen</text>
+        <text>The location was chosen because it afforded an excellent horizon</text>
+        <text>Test</text>
     </card>
     <card type ="spring_fling">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/Science_4.jpg"></image>
