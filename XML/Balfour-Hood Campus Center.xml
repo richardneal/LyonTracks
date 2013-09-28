@@ -1,21 +1,21 @@
 <building name="Balfour-Hood Campus Center">
     <card type="spring_fling">
-        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/Balfourhood_center_12.jpg</imgUrl>
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Balfourhood_center_12.jpg"></image>>
         <text>Balfour-Hood Campus Center</text>
     </card>
     <card type="modified_abe">
-        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/motor_entrance_3.jpg</imgUrl>
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/motor_entrance_3.jpg"></image>
         <text>Originally called the Student Alumni Building (SAB), Balfour was the first building in the Modern, or International, style at Wheaton.</text>
     </card>
     <card type="modified_abe">
-        <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/Balfourhood_center_12.jpg</imgUrl>
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Balfourhood_center_12.jpg"></image>
         <text>Balfour is now used for a variety of student events including contra dances, acapella group showcases, and much more.</text>
     </card>
     <card type="paragraph">
         <text>The Balfour-Hood cafe is open every weekday, and gives a pleasant alternative to dining hall food.</text>
     </card>
     <card type="modified_abe">
-        <imgUrl></imgUrl>
+        <image url=""></image>
         <text>The Loft, open nightly 2AM, serves students beer, nachos, and other late night favorites.</text>
     </card>
 </building>

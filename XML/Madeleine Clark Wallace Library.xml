@@ -1,13 +1,13 @@
 <building name="Madeleine Clark Wallace Library">
     <card type="spring_fling">
-       <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/library_interior_1.jpg</imgUrl> 
+       <image url="http://wheatoncollege.edu/college-history/files/2011/01/library_interior_1.jpg"></image> 
         <text>Madeleine Clark Wallace Library</text>
     </card>
     <card type="paragraph">
         <text>Constructed in 1923, the Library's portico was designed with columns, a "Juliet" gallery above the central door, and doors on each side, specifically for use in the classical plays offered by the Senior Classes during the 1920s.</text>
     </card>
     <card type="modified_abe">
-       <imgUrl>http://wheatoncollege.edu/college-history/files/2011/01/Library_2.jpg</imgUrl>
+       <image url="http://wheatoncollege.edu/college-history/files/2011/01/Library_2.jpg"></image>
         <text>The library has been expanded several times since it was first built to accomodate the growing collections and Wheaton body.</text>
     </card>
     <!--<card type="secret_agent">
