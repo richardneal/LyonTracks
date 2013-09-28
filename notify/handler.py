@@ -84,7 +84,10 @@ class Building:
         return inside
 
     def get_xml_data(self):
-        xmlDoc = minidom.parse("XML/" + self.name + ".xml")
+        try:
+            xmlDoc = minidom.parse("XML/" + self.name.replace("'", "") + ".xml")
+        except:
+            xmlDoc = minidom.parse("XML/Wheaton College.xml")
         building = xmlDoc.getElementsByTagName('building')
 
         for card in building[0].getElementsByTagName('card'):
@@ -98,7 +101,7 @@ class Building:
                 #type_card.set_kind("secret_agent_num2")
                 type_card.add_image(card.getElementsByTagName("image")[0].attributes['url'].value)
                 for text in card.getElementsByTagName("text"):
-                    type_card.add_fact(fact.childNodes[0].nodeValue)            
+                    type_card.add_fact(text.childNodes[0].nodeValue)
             if card.attributes['type'].value =="paragraph":
                 type_card.set_kind("paragraph")
                 type_card.add_text(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
