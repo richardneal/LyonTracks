@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<building name="Clark Hall">
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/02/clark_5-122x122.jpg"></image>
+        <text>Clark Hall</text>
+    </card>
+    <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/02/Clark_4.jpg"></image> 
+        <text>Built in 1960</text>
+        <text>Dedicated to Kate Upson Clark.</text>
+    </card>
+</building>

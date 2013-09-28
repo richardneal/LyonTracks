@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<building name="Meadows East">
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/02/Meadows_1.jpg"></image>
+        <text>Meadows East</text>
+    </card>
+    <card type ="paragraph">
+        <text>The Meadows residence building is broken into three parts: Meadows East, North, West.</text>
+    </card>
+</building>

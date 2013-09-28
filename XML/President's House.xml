@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<building name="President's House">
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/presidents_house_1.jpg"></image>
+        <text>President's House</text>
+    </card>
+    <card type="modified_abe">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/pres_house_interior_1.jpg"></image>
+        <text>The mansion was built in 1829 by Laban Morey Wheaton.</text>
+    </card>
+    <card type ="paragraph">
+        <text>Before the renovations that took place in the early 2000s, the house had 3 staircases, 80 windows and 23 closets.</text>
+    </card>
+    <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/presidents_house_back_1.jpg"></image>
+        <text>President Crutcher currently resides here.</text>
+        <text></text>
+    </card>
+</building>
