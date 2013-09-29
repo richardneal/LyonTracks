@@ -40,8 +40,8 @@ class Card:
 	def add_image(self, img_url):
 		self.image = img_url
 
-	def add_text(self, text):
-		self.text = text
+#	def add_text(self, text):
+#		self.text = text
 
 	def set_kind(self, kind):
 		self.kind = kind
@@ -95,7 +95,7 @@ class Building:
 			if card.attributes['type'].value == "spring_fling":
 				type_card.set_kind("spring_fling")
 				type_card.add_image(card.getElementsByTagName("image")[0].attributes['url'].value)
-				type_card.add_text(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
+				type_card.add_fact(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
 			if card.attributes['type'].value == "secret_agent":
 				type_card.set_kind("secret_agent")
 				#type_card.set_kind("secret_agent_num2")
@@ -104,11 +104,11 @@ class Building:
 					type_card.add_fact(text.childNodes[0].nodeValue)
 			if card.attributes['type'].value == "paragraph":
 				type_card.set_kind("paragraph")
-				type_card.add_text(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
+				type_card.add_fact(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
 			if card.attributes["type"].value == "modified_abe":
 				type_card.set_kind("modified_abe")
 				type_card.add_image(card.getElementsByTagName("image")[0].attrtibutes['url'].value)
-				type_card.add_text(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
+				type_card.add_fact(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
 			self.add_card(type_card)
 
 
@@ -144,9 +144,13 @@ class NotifyHandler(webapp2.RequestHandler):
 				f.close()
 
 				if card.kind == "spring_fling":
-					html += myHtml.format(card.image, card.text)
+					html += myHtml.format(card.image, card.facts[0])
 				elif card.kind == "secret_agent":
-					html += myHtml.format(card.image, card.facts[0], card.facts[1], card.facts[2])
+					html += myHtml.format(card.image, card.facts[0], card.facts[1])
+                elif card.kind == "modified_abe":
+					html += myHtml.format(card.image, card.facts[0])
+                elif card.kind == "paragraph":
+                    html += myHtml.format(card.facts[0])
 
 		else:
 			html = 'Lyon Tracks says you are at {0} by {1}.'.format(latitude, longitude)
