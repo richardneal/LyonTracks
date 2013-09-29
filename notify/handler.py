@@ -107,7 +107,7 @@ class Building:
 				type_card.add_fact(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
 			elif card.attributes["type"].value == "modified_abe":
 				type_card.set_kind("modified_abe")
-				type_card.add_image(card.getElementsByTagName("image")[0].attrtibutes['url'].value)
+				type_card.add_image(card.getElementsByTagName("image")[0].attributes['url'].value)
 				type_card.add_fact(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
             else:
                 type_card.set_kind("error")
