@@ -1,0 +1,21 @@
+<building name="Stanton Hall">
+    <card type="spring_fling">
+        <image url="
+http://wheatoncollege.edu/college-history/files/2011/02/stanton_4.jpg
+        "></image>
+        <text>
+Stanton Hall
+        </text>
+    </card>
+    <card type="secret_agent">
+        <image url="
+http://wheatoncollege.edu/college-history/files/2011/02/Stanton_2.jpg
+        "></image>
+        <text>
+This residence hall was built in 1921.
+        </text>
+        <text>
+Stanton houses mostly upper classmen. 
+        </text>
+    </card>
+</building>

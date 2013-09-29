@@ -1,0 +1,34 @@
+<buiilding name="Mars Center for Science and Technology">
+    <card type="spring_fling">
+       <image url=""></image>
+        <text>Mars Center for Science and Technology</text> 
+    </card>
+    <card type="secret_agent">
+        <image url=""></image>
+        <text>The Mars Center for Science and Technology opened with the official dedication ceremony on September 23,2012</text>
+    </card>
+    <card type="modified_abe">
+        <image url="http://wheatoncollege.edu/whale/files/2012/07/printing_johnsonsolid_60.jpg"></image>
+        <text>The science center holds classes for Astronomy, Biochemistry, Bioinformatics, Biology, Chemistry, Computer Science, Environmental Science, Mathematics, Neuroscience, Physics</text>
+    </card>
+    <card type="secret_agent">
+        <image url="http://wheatoncollege.edu/quarterly/files/2011/12/12-W-feature-sciCenter-1.jpg"></image>
+        <text>The Mars Center for Science and Technology has been designed to achieve a prestigious LEED (Leadership in Energy and Environmental Design) silver certification from the U.S. Green Building Council</text>
+    </card>
+    <card type="paragraph">
+        <text>LEED measures buildings in five key areas:
+            <br>• sustainable site development
+            <br>• water savings
+            <br>• energy efficiency
+            <br>• materials selection
+            <br>• indoor environmental quality</text>
+    </card>
+    <card type="modified_abe">
+        <image url="http://i0.wp.com/wheatoncollege.edu/mars-science/files/2011/09/CIMG2300.jpg?resize=600%2C450"></image>
+        <text>The boulders in the courtyard were a vision by the architect, specially selected by geology professors at Wheaton.</text>
+    </card>
+    <card type="paragraph">
+        <text>The boulders are all local rocks from southeastern Massachusetts, and are designed to reproduce on a small scale some of the important geological structures underlying Wheaton College.</text>
+    </card>
+</building>
+    

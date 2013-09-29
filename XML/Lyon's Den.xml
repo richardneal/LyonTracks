@@ -1,0 +1,16 @@
+<building name="Lyon's Den">
+    <card type="spring_fling">
+        <image url="
+        "></image>
+        <text>
+Lyon's Den
+        </text>
+    </card>
+    <card type="modified_abe">
+        <image url="
+        "></image>
+        <text>
+The Lyon's Den is a student run coffee house, offering a comfortable hangout, and often times, live music.
+        </text>
+    </card>
+</building>

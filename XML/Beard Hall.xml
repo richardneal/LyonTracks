@@ -1,0 +1,23 @@
+<building name="Beard Hall">
+    <card type="spring_fling">
+        <image url="
+http://wheatoncollege.edu/college-history/files/2011/02/beard_hall_1.jpg
+        "></image>
+        <text>
+Beard Hall
+        </text>
+    </card>
+    <card type="modified_abe">
+        <image url="
+http://wheatoncollege.edu/college-history/files/2011/02/beard_hall_2.jpg
+        "></image>
+        <text>
+Built in 2002, Beard Hall was designed for students to live in cluster arrangements that serve as "living and learning communities."
+        </text>
+    </card>
+    <card type="paragraph">
+        <text>
+Learning communities are created by students who seek ways to connect knowledge acquired in classes to co-curricular experiences outside the classroom. Clusters are focused around particular academic disciplines, or may be interdisciplinary in nature.
+        </text>
+    </card>
+</building>

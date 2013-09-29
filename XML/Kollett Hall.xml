@@ -1,0 +1,31 @@
+<building name="Kollett Hall">
+    <card type="spring_fling">
+        <image url="
+        "></image>
+        <text>Kollett Hall
+        </text>
+    </card>
+    <card type="modified_abe">
+        <image url="
+        "></image>
+        <text>Kollett Hall was named for Francis "Fred" Kollett, professor of Mathematics and Computer Science and Director of the Academic Computing Center from 1979 to 1997.
+        </text>
+    </card>
+    <card type="secret_agent">
+        <image url="
+        "></image>
+        <text>
+Offerings include drop-in tutoring in almost every academic subject and quiet study space.
+        </text>
+        <text>
+Peer tutoring offers group learning and individual sessions with trained student tutors.
+        </text>
+    </card>
+    <card type="modified_abe">
+        <image url="
+        "></image>
+        <text>
+Aside from individual subject tutors, there is also an academic success tutor to whom students may go with general questions about studying, prioritizing, and time management. 
+        </text>
+    </card>
+</building>

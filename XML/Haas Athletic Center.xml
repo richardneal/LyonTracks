@@ -1,0 +1,19 @@
+<building name="Haas Athletic Center">
+    <card type="spring_fling">
+        <image url="http://athletics.wheatoncollege.edu/information/facilities/haas/2.jpg?max_height=450&max_width=600"></image>
+        <text>Haas Athletic Center</text>
+    </card>
+    <card type="modified_abe">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/haas_pool_2.jpg
+        "></image>
+        <text>Haas has been the primary facility for Wheaton athletics since the 1990-91 school year before which, all athletics were held at Clark Recreation Center. 
+        </text>
+    </card>
+    <card type="modified_abe">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Haas_6.jpg
+        "></image>
+        <text>Haas houses Balfour Natatorium, Beard Field House, Emerson Gymnasium and the majority of the athletic department staff's office.
+        </text>
+    </card>
+    
+</building> 
