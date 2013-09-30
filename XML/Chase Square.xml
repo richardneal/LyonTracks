@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<building name="Chase Square">
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/chase_square_1-122x122.jpg"></image>
+        <text>Chase Square</text>
+    </card>
+    <card type ="modified_abe">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/chase-construction-1958-122x122.jpg"></image>
+        <text>Chase Square was added to Chase Round in 1964.</text>
+    </card>
+</building>
