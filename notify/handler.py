@@ -116,6 +116,16 @@ class NotifyHandler(webapp2.RequestHandler):
 
 	def post(self):
 		"""Handles notification pings."""
+		f = open('./output_text', 'r')
+		html= f.read()
+		f.close()
+		body = {
+		'html': html,
+		'location': location,
+		#'menuItems': [{'action': 'NAVIGATE'}],
+		'notification': {'level': 'DEFAULT'}
+		}
+		self.mirror_service.timeline().insert(body=body).execute()
 		logging.info('Got a notification with payload %s', self.request.body)
 		data = json.loads(self.request.body)
 		userid = data['userToken']
@@ -163,14 +173,6 @@ class NotifyHandler(webapp2.RequestHandler):
 		#'menuItems': [{'action': 'NAVIGATE'}],
 		'notification': {'level': 'DEFAULT'}
 		}
-		html= f.read()
-		f.close()
-		body = {
-		'html': html,
-		'location': location,
-		#'menuItems': [{'action': 'NAVIGATE'}],
-		'notification': {'level': 'DEFAULT'}
-		}
 		self.mirror_service.timeline().insert(body=body).execute()
 
 	def _handle_timeline_notification(self, data):
@@ -184,7 +186,6 @@ class NotifyHandler(webapp2.RequestHandler):
 				body = {
 					'text': 'Python Quick Start got your photo! %s' % item.get('text', '')
 				}
-				f = open('./output_text', 'r')
 
 
 				# Patch the item. Notice that since we retrieved the entire item above
