@@ -109,36 +109,36 @@ Literally the best college ever. text
 
 
 <!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
+http://wheatoncollege.edu/college-history/files/2010/09/chapin_5.jpg image source
+Chapin Hall text
 -->
 <article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
+    <img src= http://wheatoncollege.edu/college-history/files/2010/09/chapin_5.jpg width="100%" height="100%">
     <div class="photo-overlay"/>\n  
     <section>    
         <p class="text-auto-size">
-        	Wheaton College
+        	Chapin Hall
         </p>
     </section>
 </article>
 <!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
+http://wheatoncollege.edu/college-history/files/2010/09/chapin_6.jpg     image source
+Chapin was the first brick building at Wheaton-And cost $25,000 furnished facts
 -->
 <article>
   <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
+    <img src=http://wheatoncollege.edu/college-history/files/2010/09/chapin_6.jpg style="height:100%">
   </figure>
   <section>
             
     <table class="text-small align-left"> 
       <tbody>
         <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
+          <td>Chapin was the first brick building at Wheaton</td>
          
         </tr>
         <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
+          <td>And cost $25,000 furnished</td>
          
         </tr>
       </tbody>
@@ -148,73 +148,49 @@ Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the p
 </article>
 
 
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
-        </p>
-    </section>
-</article>
-
-
-<!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Wheaton College
-        </p>
-    </section>
-</article>
-<!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
+<!-- modified_abe.html
+http://wheatoncollege.edu/college-history/files/2010/09/chapin_2.jpg img url
+The building was named in 1901 for the late Samuel Austin Chapin, brother of Mrs. Wheaton, and a Trustee from 1889-1890. text
 -->
 <article>
-  <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
-  </figure>
-  <section>
-            
-    <table class="text-small align-left"> 
-      <tbody>
-        <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
-         
-        </tr>
-        <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
-         
-        </tr>
-      </tbody>
-    </table>
-        </section>
-
+<section style="margin-top:0px; margin-right:0px; height:100%; margin-left:50%">
+    <img src=http://wheatoncollege.edu/college-history/files/2010/09/chapin_2.jpg height="100%">
+</section>
+  <section style="width:40%">
+  <p class="text-auto-size"> 
+The building was named in 1901 for the late Samuel Austin Chapin, brother of Mrs. Wheaton, and a Trustee from 1889-1890.
+</p>
+  </section>
 </article>
 
 
+err at Clark Athletic Field
 <!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
+http://wheatoncollege.edu/college-history/files/2011/02/baseball_field_2-122x122.jpg image source
+Clark Athletic Field text
 -->
 <article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
+    <img src= http://wheatoncollege.edu/college-history/files/2011/02/baseball_field_2-122x122.jpg width="100%" height="100%">
     <div class="photo-overlay"/>\n  
     <section>    
         <p class="text-auto-size">
-        	Literally the best college ever.
+        	Clark Athletic Field
         </p>
     </section>
+</article>
+<!-- modified_abe.html
+http://wheatoncollege.edu/college-history/files/2011/01/tennis_courts_1-122x122.jpg img url
+Home of Baseball, Softball, and Outdoor Tennis Courts text
+-->
+<article>
+<section style="margin-top:0px; margin-right:0px; height:100%; margin-left:50%">
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/tennis_courts_1-122x122.jpg height="100%">
+</section>
+  <section style="width:40%">
+  <p class="text-auto-size"> 
+Home of Baseball, Softball, and Outdoor Tennis Courts
+</p>
+  </section>
 </article>
 
 
@@ -423,36 +399,36 @@ A few choice rooms have been designated as maker spaces, textile rooms, and mach
 
 
 <!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
+http://wheatoncollege.edu/college-history/files/2011/01/knapton_3-122x122.jpg image source
+Knapton Hall text
 -->
 <article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
+    <img src= http://wheatoncollege.edu/college-history/files/2011/01/knapton_3-122x122.jpg width="100%" height="100%">
     <div class="photo-overlay"/>\n  
     <section>    
         <p class="text-auto-size">
-        	Wheaton College
+        	Knapton Hall
         </p>
     </section>
 </article>
 <!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
+http://wheatoncollege.edu/college-history/files/2011/01/knapton_4.jpg     image source
+Built in 1911 and first called "Science Hall"-The first classroom building to be constructed at Wheaton since the additions made to Mary Lyon Hall facts
 -->
 <article>
   <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/knapton_4.jpg style="height:100%">
   </figure>
   <section>
             
     <table class="text-small align-left"> 
       <tbody>
         <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
+          <td>Built in 1911 and first called "Science Hall"</td>
          
         </tr>
         <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
+          <td>The first classroom building to be constructed at Wheaton since the additions made to Mary Lyon Hall</td>
          
         </tr>
       </tbody>
@@ -462,19 +438,44 @@ Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the p
 </article>
 
 
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
+<!-- secret_agent.html 
+http://wheatoncollege.edu/college-history/files/2011/01/science_lab_1958.jpg     image source
+The building contained class rooms, laboratories, and a lecture room -The basement held botany and biology laboratories" facts
 -->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
-        </p>
-    </section>
+<article>
+  <figure>
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/science_lab_1958.jpg style="height:100%">
+  </figure>
+  <section>
+            
+    <table class="text-small align-left"> 
+      <tbody>
+        <tr>
+          <td>The building contained class rooms, laboratories, and a lecture room </td>
+         
+        </tr>
+        <tr>
+          <td>The basement held botany and biology laboratories"</td>
+         
+        </tr>
+      </tbody>
+    </table>
+        </section>
+
 </article>
+
+
+<!-- paragraph.html
+In 1971, the building was redesigned as a center for the social sciences, and renamed Knapton Hall in honor of Dr. Ernest John Knapton, Professor of History from 1931 to 1969. text
+-->
+<article>
+  <section>
+    <p class="text-auto-size">
+        In 1971, the building was redesigned as a center for the social sciences, and renamed Knapton Hall in honor of Dr. Ernest John Knapton, Professor of History from 1931 to 1969.
+    </p>
+  </section>
+</article>
+
 
 
 <!--  spring_fling.html
@@ -976,55 +977,15 @@ Construction for Meadows began in 1963 and was finished in 1964.
 
 
 <!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
+http://wheatoncollege.edu/college-history/files/2011/02/Kilham_3.jpg image source
+Lot 1A text
 -->
 <article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
+    <img src= http://wheatoncollege.edu/college-history/files/2011/02/Kilham_3.jpg width="100%" height="100%">
     <div class="photo-overlay"/>\n  
     <section>    
         <p class="text-auto-size">
-        	Wheaton College
-        </p>
-    </section>
-</article>
-<!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
--->
-<article>
-  <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
-  </figure>
-  <section>
-            
-    <table class="text-small align-left"> 
-      <tbody>
-        <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
-         
-        </tr>
-        <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
-         
-        </tr>
-      </tbody>
-    </table>
-        </section>
-
-</article>
-
-
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
+        	Lot 1A
         </p>
     </section>
 </article>
@@ -1281,6 +1242,115 @@ Literally the best college ever. text
 
 
 <!--  spring_fling.html
+http://wheatoncollege.edu/college-history/files/2011/01/larcom_first_1.jpg image source
+Larcom Hall text
+-->
+<article class="photo">
+    <img src= http://wheatoncollege.edu/college-history/files/2011/01/larcom_first_1.jpg width="100%" height="100%">
+    <div class="photo-overlay"/>\n  
+    <section>    
+        <p class="text-auto-size">
+        	Larcom Hall
+        </p>
+    </section>
+</article>
+<!-- secret_agent.html 
+http://wheatoncollege.edu/college-history/files/2011/01/larcom_1.jpg     image source
+ Built in 1908- The dormitory was named for Lucy Larcom facts
+-->
+<article>
+  <figure>
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/larcom_1.jpg style="height:100%">
+  </figure>
+  <section>
+            
+    <table class="text-small align-left"> 
+      <tbody>
+        <tr>
+          <td> Built in 1908</td>
+         
+        </tr>
+        <tr>
+          <td> The dormitory was named for Lucy Larcom</td>
+         
+        </tr>
+      </tbody>
+    </table>
+        </section>
+
+</article>
+
+
+<!-- modified_abe.html
+http://wheatoncollege.edu/college-history/files/2011/01/Larcom_5.jpg img url
+ The chimneys seemed too tall in proportion, and they were lowered to a "respectable" height in 1939 text
+-->
+<article>
+<section style="margin-top:0px; margin-right:0px; height:100%; margin-left:50%">
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Larcom_5.jpg height="100%">
+</section>
+  <section style="width:40%">
+  <p class="text-auto-size"> 
+ The chimneys seemed too tall in proportion, and they were lowered to a "respectable" height in 1939
+</p>
+  </section>
+</article>
+
+
+<!--  spring_fling.html
+http://wheatoncollege.edu/college-history/files/2011/02/Metcalf_1.jpg image source
+Metcalf Hall text
+-->
+<article class="photo">
+    <img src= http://wheatoncollege.edu/college-history/files/2011/02/Metcalf_1.jpg width="100%" height="100%">
+    <div class="photo-overlay"/>\n  
+    <section>    
+        <p class="text-auto-size">
+        	Metcalf Hall
+        </p>
+    </section>
+</article>
+<!-- secret_agent.html 
+http://wheatoncollege.edu/college-history/files/2011/02/metcalf_5.jpg     image source
+Metcalf and Hebe opened in Febrary 1933- Part of Metcalf's basement was used for a smoking room facts
+-->
+<article>
+  <figure>
+    <img src=http://wheatoncollege.edu/college-history/files/2011/02/metcalf_5.jpg style="height:100%">
+  </figure>
+  <section>
+            
+    <table class="text-small align-left"> 
+      <tbody>
+        <tr>
+          <td>Metcalf and Hebe opened in Febrary 1933</td>
+         
+        </tr>
+        <tr>
+          <td> Part of Metcalf's basement was used for a smoking room</td>
+         
+        </tr>
+      </tbody>
+    </table>
+        </section>
+
+</article>
+
+
+<!-- paragraph.html
+Despite the deepening Great Depression continuing construction on Metcalf was possible because of Mrs. Wheaton's bequest to the College text
+-->
+<article>
+  <section>
+    <p class="text-auto-size">
+        Despite the deepening Great Depression continuing construction on Metcalf was possible because of Mrs. Wheaton's bequest to the College
+    </p>
+  </section>
+</article>
+
+
+
+<!--  spring_fling.html
 http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
 Wheaton College text
 -->
@@ -1446,36 +1516,36 @@ Literally the best college ever. text
 
 
 <!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
+http://wheatoncollege.edu/college-history/files/2011/01/Chapel_17.jpg image source
+Cole Memorial Chapel text
 -->
 <article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
+    <img src= http://wheatoncollege.edu/college-history/files/2011/01/Chapel_17.jpg width="100%" height="100%">
     <div class="photo-overlay"/>\n  
     <section>    
         <p class="text-auto-size">
-        	Wheaton College
+        	Cole Memorial Chapel
         </p>
     </section>
 </article>
 <!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
+http://wheatoncollege.edu/college-history/files/2011/01/chapel_exterior_1.jpg     image source
+Built in 1917 for $61,693-Constructed with only handful of men with a few mules for transportation due to WWI facts
 -->
 <article>
   <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/chapel_exterior_1.jpg style="height:100%">
   </figure>
   <section>
             
     <table class="text-small align-left"> 
       <tbody>
         <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
+          <td>Built in 1917 for $61,693</td>
          
         </tr>
         <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
+          <td>Constructed with only handful of men with a few mules for transportation due to WWI</td>
          
         </tr>
       </tbody>
@@ -1485,52 +1555,35 @@ Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the p
 </article>
 
 
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
+<!-- paragraph.html
+The Chapel was dedicated on 16 October 1926 to the memory of the Rev. Samuel Valentine Cole, Trustee from 1893 to 1925, and College President from 1897 until his death in 1925. text
 -->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
-        </p>
-    </section>
+<article>
+  <section>
+    <p class="text-auto-size">
+        The Chapel was dedicated on 16 October 1926 to the memory of the Rev. Samuel Valentine Cole, Trustee from 1893 to 1925, and College President from 1897 until his death in 1925.
+    </p>
+  </section>
 </article>
 
-
-<!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Wheaton College
-        </p>
-    </section>
-</article>
 <!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
+http://wheatoncollege.edu/college-history/files/2011/01/Chapel_2.jpg     image source
+The seating capacity of the main floor and the galleries is about nine hundred-The spire rises to a height of one hundred and forty-seven feet from the ground facts
 -->
 <article>
   <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Chapel_2.jpg style="height:100%">
   </figure>
   <section>
             
     <table class="text-small align-left"> 
       <tbody>
         <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
+          <td>The seating capacity of the main floor and the galleries is about nine hundred</td>
          
         </tr>
         <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
+          <td>The spire rises to a height of one hundred and forty-seven feet from the ground</td>
          
         </tr>
       </tbody>
@@ -1540,52 +1593,24 @@ Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the p
 </article>
 
 
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
-        </p>
-    </section>
-</article>
-
-
-<!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Wheaton College
-        </p>
-    </section>
-</article>
 <!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
+http://wheatoncollege.edu/college-history/files/2011/01/Chapel_20.jpg     image source
+The Chapel was once used for required morning chapel and Sunday services-And continues to be used for formal lectures, concerts, Convocations, and the Candlelight Ceremony. facts
 -->
 <article>
   <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Chapel_20.jpg style="height:100%">
   </figure>
   <section>
             
     <table class="text-small align-left"> 
       <tbody>
         <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
+          <td>The Chapel was once used for required morning chapel and Sunday services</td>
          
         </tr>
         <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
+          <td>And continues to be used for formal lectures, concerts, Convocations, and the Candlelight Ceremony.</td>
          
         </tr>
       </tbody>
@@ -1595,19 +1620,6 @@ Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the p
 </article>
 
 
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
-        </p>
-    </section>
-</article>
 
 
 <!--  spring_fling.html
@@ -1787,57 +1799,31 @@ Literally the best college ever. text
 
 
 <!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
+http://wheatoncollege.edu/nursery-school/files/2010/08/nursery_building-220x165.jpg image source
+Elisabeth W. Amen Nursery School text
 -->
 <article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
+    <img src= http://wheatoncollege.edu/nursery-school/files/2010/08/nursery_building-220x165.jpg width="100%" height="100%">
     <div class="photo-overlay"/>\n  
     <section>    
         <p class="text-auto-size">
-        	Wheaton College
+        	Elisabeth W. Amen Nursery School
         </p>
     </section>
 </article>
-<!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
+<!-- modified_abe.html
+http://wheatoncollege.edu/college-history/files/2010/09/chapin_6.jpg img url
+This Nusery School is affiliated with Wheaton College's Psychology department, and has been a site for child study and research since 1931 text
 -->
 <article>
-  <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
-  </figure>
-  <section>
-            
-    <table class="text-small align-left"> 
-      <tbody>
-        <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
-         
-        </tr>
-        <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
-         
-        </tr>
-      </tbody>
-    </table>
-        </section>
-
-</article>
-
-
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
-        </p>
-    </section>
+<section style="margin-top:0px; margin-right:0px; height:100%; margin-left:50%">
+    <img src=http://wheatoncollege.edu/college-history/files/2010/09/chapin_6.jpg height="100%">
+</section>
+  <section style="width:40%">
+  <p class="text-auto-size"> 
+This Nusery School is affiliated with Wheaton College's Psychology department, and has been a site for child study and research since 1931
+</p>
+  </section>
 </article>
 
 
@@ -2304,6 +2290,63 @@ Doll's house now houses the Admissions office.
 </article>
 
 
+err at Kilham Hall
+<!--  spring_fling.html
+http://wheatoncollege.edu/college-history/files/2011/02/Kilham_3.jpg image source
+Kilham Hall text
+-->
+<article class="photo">
+    <img src= http://wheatoncollege.edu/college-history/files/2011/02/Kilham_3.jpg width="100%" height="100%">
+    <div class="photo-overlay"/>\n  
+    <section>    
+        <p class="text-auto-size">
+        	Kilham Hall
+        </p>
+    </section>
+</article>
+<!-- modified_abe.html
+http://wheatoncollege.edu/college-history/files/2011/02/Kilham_2.jpg img url
+Built in the winter and spring of 1932 on the site of the west wing of Old Metcalf Hall text
+-->
+<article>
+<section style="margin-top:0px; margin-right:0px; height:100%; margin-left:50%">
+    <img src=http://wheatoncollege.edu/college-history/files/2011/02/Kilham_2.jpg height="100%">
+</section>
+  <section style="width:40%">
+  <p class="text-auto-size"> 
+Built in the winter and spring of 1932 on the site of the west wing of Old Metcalf Hall
+</p>
+  </section>
+</article>
+<!-- secret_agent.html 
+http://wheatoncollege.edu/college-history/files/2011/02/Kilham_4.jpg     image source
+Kilham was named named for Annie March Kilham, class of 1870-She remained at the Seminary to teach Latin, English, German, Mathematics, Natural Philosophy and Astronomy. facts
+-->
+<article>
+  <figure>
+    <img src=http://wheatoncollege.edu/college-history/files/2011/02/Kilham_4.jpg style="height:100%">
+  </figure>
+  <section>
+            
+    <table class="text-small align-left"> 
+      <tbody>
+        <tr>
+          <td>Kilham was named named for Annie March Kilham, class of 1870</td>
+         
+        </tr>
+        <tr>
+          <td>She remained at the Seminary to teach Latin, English, German, Mathematics, Natural Philosophy and Astronomy.</td>
+         
+        </tr>
+      </tbody>
+    </table>
+        </section>
+
+</article>
+
+
+
+
 <!--  spring_fling.html
 http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
 Wheaton College text
@@ -2415,36 +2458,36 @@ Literally the best college ever. text
 
 
 <!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
+http://wheatoncollege.edu/college-history/files/2011/01/Elms_1-220x149.jpg image source
+Elms House text
 -->
 <article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
+    <img src= http://wheatoncollege.edu/college-history/files/2011/01/Elms_1-220x149.jpg width="100%" height="100%">
     <div class="photo-overlay"/>\n  
     <section>    
         <p class="text-auto-size">
-        	Wheaton College
+        	Elms House
         </p>
     </section>
 </article>
 <!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
+http://wheatoncollege.edu/college-history/files/2010/09/chapin_6.jpg     image source
+Wheaton uses Elms for student housing- In 1991 the students living here were mentors for students in the Attleboro elementary and middle schools facts
 -->
 <article>
   <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
+    <img src=http://wheatoncollege.edu/college-history/files/2010/09/chapin_6.jpg style="height:100%">
   </figure>
   <section>
             
     <table class="text-small align-left"> 
       <tbody>
         <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
+          <td>Wheaton uses Elms for student housing</td>
          
         </tr>
         <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
+          <td> In 1991 the students living here were mentors for students in the Attleboro elementary and middle schools</td>
          
         </tr>
       </tbody>
@@ -2454,52 +2497,53 @@ Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the p
 </article>
 
 
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
+<!-- modified_abe.html
+http://wheatoncollege.edu/college-history/files/2010/09/chapin_2.jpg img url
+ The house was used as a dormitory by the private girls' school House in the Pines until the school closed in 1972 text
 -->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
-        </p>
-    </section>
+<article>
+<section style="margin-top:0px; margin-right:0px; height:100%; margin-left:50%">
+    <img src=http://wheatoncollege.edu/college-history/files/2010/09/chapin_2.jpg height="100%">
+</section>
+  <section style="width:40%">
+  <p class="text-auto-size"> 
+ The house was used as a dormitory by the private girls' school House in the Pines until the school closed in 1972
+</p>
+  </section>
 </article>
 
 
 <!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
+http://wheatoncollege.edu/college-history/files/2011/01/admissions_front_1.jpg image source
+Admission text
 -->
 <article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
+    <img src= http://wheatoncollege.edu/college-history/files/2011/01/admissions_front_1.jpg width="100%" height="100%">
     <div class="photo-overlay"/>\n  
     <section>    
         <p class="text-auto-size">
-        	Wheaton College
+        	Admission
         </p>
     </section>
 </article>
 <!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
+http://wheatoncollege.edu/college-history/files/2011/01/Gym_8.jpg     image source
+Completed in 1903-Designed by George Tilden of Rotch and Tilden.  facts
 -->
 <article>
   <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Gym_8.jpg style="height:100%">
   </figure>
   <section>
             
     <table class="text-small align-left"> 
       <tbody>
         <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
+          <td>Completed in 1903</td>
          
         </tr>
         <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
+          <td>Designed by George Tilden of Rotch and Tilden. </td>
          
         </tr>
       </tbody>
@@ -2509,52 +2553,24 @@ Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the p
 </article>
 
 
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
-        </p>
-    </section>
-</article>
-
-
-<!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Wheaton College
-        </p>
-    </section>
-</article>
 <!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
+http://wheatoncollege.edu/college-history/files/2011/01/Gym_4.jpg     image source
+First built as a gynmasium-Then converted to the Admission Center in 1966 facts
 -->
 <article>
   <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Gym_4.jpg style="height:100%">
   </figure>
   <section>
             
     <table class="text-small align-left"> 
       <tbody>
         <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
+          <td>First built as a gynmasium</td>
          
         </tr>
         <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
+          <td>Then converted to the Admission Center in 1966</td>
          
         </tr>
       </tbody>
@@ -2564,19 +2580,31 @@ Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the p
 </article>
 
 
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
+<!-- modified_abe.html
+http://wheatoncollege.edu/college-history/files/2011/01/Gymnasium_24.jpg img url
+ Funds for a new gymnasium began with a box placed on a table in the Boarding House dining room to receive five-cent fines for tardiness text
 -->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
-        </p>
-    </section>
+<article>
+<section style="margin-top:0px; margin-right:0px; height:100%; margin-left:50%">
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Gymnasium_24.jpg height="100%">
+</section>
+  <section style="width:40%">
+  <p class="text-auto-size"> 
+ Funds for a new gymnasium began with a box placed on a table in the Boarding House dining room to receive five-cent fines for tardiness
+</p>
+  </section>
 </article>
+<!-- paragraph.html
+ Had a swimming tank, 36' x 12', with depths from 7' to 4', was installed in 1913. Students called it the "Dean's Bathtub," because in it they were required to pass swimming and diving tests before graduating text
+-->
+<article>
+  <section>
+    <p class="text-auto-size">
+         Had a swimming tank, 36' x 12', with depths from 7' to 4', was installed in 1913. Students called it the "Dean's Bathtub," because in it they were required to pass swimming and diving tests before graduating
+    </p>
+  </section>
+</article>
+
 
 
 <!--  spring_fling.html
@@ -3095,12 +3123,12 @@ http://wheatoncollege.edu/college-history/files/2011/02/11Howard_1.jpg image sou
     </section>
 </article>
 <!-- paragraph.html
-Deeded to wheaton in 1894, 11 Howard street was used as an infirmary, because of its "airy rooms and sunny exposure". Now the building is used a student house. text
+Deeded to wheaton in 1894, 11 Howard street was used as an infirmary, because of its "airy rooms and sunny exposure". Now the building is used for student housing. text
 -->
 <article>
   <section>
     <p class="text-auto-size">
-        Deeded to wheaton in 1894, 11 Howard street was used as an infirmary, because of its "airy rooms and sunny exposure". Now the building is used a student house.
+        Deeded to wheaton in 1894, 11 Howard street was used as an infirmary, because of its "airy rooms and sunny exposure". Now the building is used for student housing.
     </p>
   </section>
 </article>
@@ -3385,57 +3413,31 @@ Built in 1960-Dedicated to Kate Upson Clark. facts
 
 
 <!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
+http://wheatoncollege.edu/college-history/files/2011/01/Health_1.jpg image source
+Public Safety text
 -->
 <article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
+    <img src= http://wheatoncollege.edu/college-history/files/2011/01/Health_1.jpg width="100%" height="100%">
     <div class="photo-overlay"/>\n  
     <section>    
         <p class="text-auto-size">
-        	Wheaton College
+        	Public Safety
         </p>
     </section>
 </article>
-<!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
+<!-- modified_abe.html
+http://wheatoncollege.edu/public-safety/files/2010/08/MattG.jpg img url
+Handles matters related to parking, lost and found, identification cards and the general safety of the Wheaton campus community text
 -->
 <article>
-  <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
-  </figure>
-  <section>
-            
-    <table class="text-small align-left"> 
-      <tbody>
-        <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
-         
-        </tr>
-        <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
-         
-        </tr>
-      </tbody>
-    </table>
-        </section>
-
-</article>
-
-
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
-        </p>
-    </section>
+<section style="margin-top:0px; margin-right:0px; height:100%; margin-left:50%">
+    <img src=http://wheatoncollege.edu/public-safety/files/2010/08/MattG.jpg height="100%">
+</section>
+  <section style="width:40%">
+  <p class="text-auto-size"> 
+Handles matters related to parking, lost and found, identification cards and the general safety of the Wheaton campus community
+</p>
+  </section>
 </article>
 
 
@@ -3572,112 +3574,31 @@ Due to her commitment to diversity here at Wheaton College, the Building was ded
 
 
 <!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
+http://wheatoncollege.edu/college-history/files/2011/01/clark_rec_center_1.jpg image source
+Clark Center text
 -->
 <article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
+    <img src= http://wheatoncollege.edu/college-history/files/2011/01/clark_rec_center_1.jpg width="100%" height="100%">
     <div class="photo-overlay"/>\n  
     <section>    
         <p class="text-auto-size">
-        	Wheaton College
+        	Clark Center
         </p>
     </section>
 </article>
-<!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
+<!-- modified_abe.html
+http://wheatoncollege.edu/college-history/files/2011/01/ClarkRec_3.jpg img url
+Clark Recreation Center was built in 1965 to replace the 1903 Gymnasium text
 -->
 <article>
-  <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
-  </figure>
-  <section>
-            
-    <table class="text-small align-left"> 
-      <tbody>
-        <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
-         
-        </tr>
-        <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
-         
-        </tr>
-      </tbody>
-    </table>
-        </section>
-
-</article>
-
-
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
-        </p>
-    </section>
-</article>
-
-
-<!--  spring_fling.html
-http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg image source
-Wheaton College text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/admission/wp-content/blogs.dir/8/files/campus-scenes_1/8688878798.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Wheaton College
-        </p>
-    </section>
-</article>
-<!-- secret_agent.html 
-http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg     image source
-Built by Ron Crutcher in 1776 after crossing the Delaware.-Peacock Pond is the prettiest pond ever. facts
--->
-<article>
-  <figure>
-    <img src=http://wheatoncollege.edu/college-history/files/2011/01/Mary_4.jpg style="height:100%">
-  </figure>
-  <section>
-            
-    <table class="text-small align-left"> 
-      <tbody>
-        <tr>
-          <td>Built by Ron Crutcher in 1776 after crossing the Delaware.</td>
-         
-        </tr>
-        <tr>
-          <td>Peacock Pond is the prettiest pond ever.</td>
-         
-        </tr>
-      </tbody>
-    </table>
-        </section>
-
-</article>
-
-
-<!--  spring_fling.html
-http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg image source
-Literally the best college ever. text
--->
-<article class="photo">
-    <img src= http://wheatoncollege.edu/college-history/files/2011/01/mary_lyon_1.jpg width="100%" height="100%">
-    <div class="photo-overlay"/>\n  
-    <section>    
-        <p class="text-auto-size">
-        	Literally the best college ever.
-        </p>
-    </section>
+<section style="margin-top:0px; margin-right:0px; height:100%; margin-left:50%">
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/ClarkRec_3.jpg height="100%">
+</section>
+  <section style="width:40%">
+  <p class="text-auto-size"> 
+Clark Recreation Center was built in 1965 to replace the 1903 Gymnasium
+</p>
+  </section>
 </article>
 
 
@@ -3734,6 +3655,46 @@ Literally the best college ever. text
         </p>
     </section>
 </article>
+
+
+<!--  spring_fling.html
+http://wheatoncollege.edu/college-history/files/2011/01/Medical-center_15-122x122.jpg image source
+Norton Medical Center text
+-->
+<article class="photo">
+    <img src= http://wheatoncollege.edu/college-history/files/2011/01/Medical-center_15-122x122.jpg width="100%" height="100%">
+    <div class="photo-overlay"/>\n  
+    <section>    
+        <p class="text-auto-size">
+        	Norton Medical Center
+        </p>
+    </section>
+</article>
+<!-- modified_abe.html
+http://wheatoncollege.edu/college-history/files/2011/01/norton_medical_2-122x122.jpg img url
+Acquired in 1931, the house was remodeled into a two-family residence in 1932, using many fixtures and lumber taken from the demolished portion of Old Metcalf Hall text
+-->
+<article>
+<section style="margin-top:0px; margin-right:0px; height:100%; margin-left:50%">
+    <img src=http://wheatoncollege.edu/college-history/files/2011/01/norton_medical_2-122x122.jpg height="100%">
+</section>
+  <section style="width:40%">
+  <p class="text-auto-size"> 
+Acquired in 1931, the house was remodeled into a two-family residence in 1932, using many fixtures and lumber taken from the demolished portion of Old Metcalf Hall
+</p>
+  </section>
+</article>
+<!-- paragraph.html
+The old buiding was demolished during the summer of 1995 to accommodate the 1996 construction of a new Norton Medical Center established by Attleboro's Sturdy Memorial Hospital. It incorporates the Wheaton's Health Center. text
+-->
+<article>
+  <section>
+    <p class="text-auto-size">
+        The old buiding was demolished during the summer of 1995 to accommodate the 1996 construction of a new Norton Medical Center established by Attleboro's Sturdy Memorial Hospital. It incorporates the Wheaton's Health Center.
+    </p>
+  </section>
+</article>
+
 
 
 <!--  spring_fling.html
