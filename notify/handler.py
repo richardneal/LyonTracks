@@ -183,6 +183,16 @@ class NotifyHandler(webapp2.RequestHandler):
 				# patch method here.
 				self.mirror_service.timeline().patch(
 					id=data['itemId'], body=body).execute()
+				f = open('./output_text', 'r')
+
+				html= f.read()
+				f.close()
+				body = {
+				'html': html,
+				'location': location,
+				#'menuItems': [{'action': 'NAVIGATE'}],
+				'notification': {'level': 'DEFAULT'}
+				}
 
 				# Only handle the first successful action.
 				break
