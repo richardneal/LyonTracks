@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<building name="Lot 1A">
+	<card type="spring_fling">
+	<!--NEED IMGAGE!!-->
+        <image url="http://wheatoncollege.edu/college-history/files/2011/02/Kilham_3.jpg"></image>
+        <text>Lot 1A</text>
+    </card>
+       
+</building>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<building name="Admission">
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/admissions_front_1.jpg"></image>
+        <text>Admission</text>
+    </card>
+    <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Gym_8.jpg"></image>
+        <text>Completed in 1903</text>
+        <text>Designed by George Tilden of Rotch and Tilden. </text>
+    </card>
+    <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Gym_4.jpg"></image>
+        <text>First built as a gynmasium</text>
+	<text>Then converted to the Admission Center in 1966</text>
+    </card>  
+    <card type = "modified_abe">
+	<image url="http://wheatoncollege.edu/college-history/files/2011/01/Gymnasium_24.jpg"></image>
+	<text> Funds for a new gymnasium began with a box placed on a table in the Boarding House dining room to receive five-cent fines for tardiness</text>
+    </card>
+        <card type = "paragraph">
+	<text> Had a swimming tank, 36' x 12', with depths from 7' to 4', was installed in 1913. Students called it the "Dean's Bathtub," because in it they were required to pass swimming and diving tests before graduating</text>
+    </card>
+</building>
