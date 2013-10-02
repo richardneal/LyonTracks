@@ -107,7 +107,7 @@ class Building:
 				type_card.set_image(card.getElementsByTagName("image")[0].attributes['url'].value)
 				type_card.add_fact(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
             else:
-                type_card.set_kind("error")
+				type_card.set_kind("error")
 			self.add_card(type_card)
 
 
