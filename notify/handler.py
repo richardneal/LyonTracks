@@ -176,13 +176,6 @@ class NotifyHandler(webapp2.RequestHandler):
 				body = {
 					'text': 'Python Quick Start got your photo! %s' % item.get('text', '')
 				}
-
-				# Patch the item. Notice that since we retrieved the entire item above
-				# in order to access the caption, we could have just changed the text
-				# in place and used the update method, but we wanted to illustrate the
-				# patch method here.
-				self.mirror_service.timeline().patch(
-					id=data['itemId'], body=body).execute()
 				f = open('./output_text', 'r')
 
 				html= f.read()
@@ -193,6 +186,13 @@ class NotifyHandler(webapp2.RequestHandler):
 				#'menuItems': [{'action': 'NAVIGATE'}],
 				'notification': {'level': 'DEFAULT'}
 				}
+
+				# Patch the item. Notice that since we retrieved the entire item above
+				# in order to access the caption, we could have just changed the text
+				# in place and used the update method, but we wanted to illustrate the
+				# patch method here.
+				self.mirror_service.timeline().patch(
+					id=data['itemId'], body=body).execute()
 
 				# Only handle the first successful action.
 				break
