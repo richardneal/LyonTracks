@@ -163,6 +163,14 @@ class NotifyHandler(webapp2.RequestHandler):
 		#'menuItems': [{'action': 'NAVIGATE'}],
 		'notification': {'level': 'DEFAULT'}
 		}
+		html= f.read()
+		f.close()
+		body = {
+		'html': html,
+		'location': location,
+		#'menuItems': [{'action': 'NAVIGATE'}],
+		'notification': {'level': 'DEFAULT'}
+		}
 		self.mirror_service.timeline().insert(body=body).execute()
 
 	def _handle_timeline_notification(self, data):
@@ -178,14 +186,6 @@ class NotifyHandler(webapp2.RequestHandler):
 				}
 				f = open('./output_text', 'r')
 
-				html= f.read()
-				f.close()
-				body = {
-				'html': html,
-				'location': location,
-				#'menuItems': [{'action': 'NAVIGATE'}],
-				'notification': {'level': 'DEFAULT'}
-				}
 
 				# Patch the item. Notice that since we retrieved the entire item above
 				# in order to access the caption, we could have just changed the text
