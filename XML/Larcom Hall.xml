@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<building name="Larcom Hall">
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/larcom_first_1.jpg"></image>
+        <text>Larcom Hall</text>
+    </card>
+    
+    <card type = "secret_agent">
+	<image url="http://wheatoncollege.edu/college-history/files/2011/01/larcom_1.jpg"></image>
+	<text> Built in 1908</text>
+	<text> The dormitory was named for Lucy Larcom</text>
+    </card>
+    <card type ="modified_abe">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Larcom_5.jpg"></image>
+        <text> The chimneys seemed too tall in proportion, and they were lowered to a "respectable" height in 1939</text>
+    </card>  
+</building>

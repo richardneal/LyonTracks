@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<building name="Metcalf Hall">
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/02/Metcalf_1.jpg"></image>
+        <text>Metcalf Hall</text>
+    </card>
+    <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/02/metcalf_5.jpg"></image>
+        <text>Metcalf and Hebe opened in Febrary 1933</text>
+        <text> Part of Metcalf's basement was used for a smoking room</text>
+    </card>
+    <card type ="paragraph">
+        <text>Despite the deepening Great Depression continuing construction on Metcalf was possible because of Mrs. Wheaton's bequest to the College</text>
+    </card>
+    
+</building>

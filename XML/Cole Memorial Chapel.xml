@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<building name="Cole Memorial Chapel">
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Chapel_17.jpg"></image>
+        <text>Cole Memorial Chapel</text>
+    </card>
+    <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/chapel_exterior_1.jpg"></image>
+        <text>Built in 1917 for $61,693</text>
+	<text>Constructed with only handful of men with a few mules for transportation due to WWI</text>
+    </card> 
+    <card type ="paragraph">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Chapel_18.jpg"></image>
+        <text>The Chapel was dedicated on 16 October 1926 to the memory of the Rev. Samuel Valentine Cole, Trustee from 1893 to 1925, and College President from 1897 until his death in 1925.</text>
+    </card>
+     <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Chapel_2.jpg"></image>    
+	<text>The seating capacity of the main floor and the galleries is about nine hundred</text>
+	<text>The spire rises to a height of one hundred and forty-seven feet from the ground</text>
+    </card>
+    <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Chapel_20.jpg"></image>
+        <text>The Chapel was once used for required morning chapel and Sunday services</text>
+	<text>And continues to be used for formal lectures, concerts, Convocations, and the Candlelight Ceremony.</text>
+    </card> 
+    
+</building>

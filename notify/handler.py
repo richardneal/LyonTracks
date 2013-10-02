@@ -106,8 +106,8 @@ class Building:
 				type_card.set_kind("modified_abe")
 				type_card.set_image(card.getElementsByTagName("image")[0].attributes['url'].value)
 				type_card.add_fact(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
-            else:
-                type_card.set_kind("error")
+			else:
+				type_card.set_kind("error")
 			self.add_card(type_card)
 
 
@@ -138,21 +138,21 @@ class NotifyHandler(webapp2.RequestHandler):
 			logging.info("Located user at %s", building.name)
 			html = ""
 			for card in building.cards:
-                if card.kind == "error":
-                    logging.info("card kind type error")
-                else:
-                    f = open('./html_templates/' + card.kind + '.html', 'r')
-                    myHtml = f.read()
-                    f.close()
+				if card.kind == "error":
+					logging.info("card kind type error")
+				else:
+					f = open('./html_templates/' + card.kind + '.html', 'r')
+					myHtml = f.read()
+					f.close()
 
-                    if card.kind == "spring_fling":
-                        html += myHtml.format(card.image, card.facts[0])
-                    elif card.kind == "secret_agent":
-                        html += myHtml.format(card.image, card.facts[0], card.facts[1])
-                    elif card.kind == "modified_abe":
-                        html += myHtml.format(card.image, card.facts[0])
-                    elif card.kind == "paragraph":
-                        html += myHtml.format(card.facts[0])
+					if card.kind == "spring_fling":
+						html += myHtml.format(card.image, card.facts[0])
+					elif card.kind == "secret_agent":
+						html += myHtml.format(card.image, card.facts[0], card.facts[1])
+					elif card.kind == "modified_abe":
+						html += myHtml.format(card.image, card.facts[0])
+					elif card.kind == "paragraph":
+						html += myHtml.format(card.facts[0])
 
 		else:
 			html = '<article>Lyon Tracks says you are at {0} by {1}</article>.'.format(latitude, longitude)

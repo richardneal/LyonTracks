@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<building name="Knapton Hall">
+	<card type="spring_fling">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/knapton_3-122x122.jpg"></image>
+        <text>Knapton Hall</text>
+    </card>
+    <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/knapton_4.jpg"></image>
+        <text>Built in 1911 and first called "Science Hall"</text>
+	<text>The first classroom building to be constructed at Wheaton since the additions made to Mary Lyon Hall</text>
+    </card>
+     <card type ="secret_agent">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/science_lab_1958.jpg"></image>    
+	<text>The building contained class rooms, laboratories, and a lecture room </text>
+	<text>The basement held botany and biology laboratories"</text>
+    </card>
+    <card type ="paragraph">
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Knapton_6.jpg"></image>
+        <text>In 1971, the building was redesigned as a center for the social sciences, and renamed Knapton Hall in honor of Dr. Ernest John Knapton, Professor of History from 1931 to 1969.</text>
+
+    </card>
+    
+</building>
