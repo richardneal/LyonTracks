@@ -37,11 +37,8 @@ class Card:
 	def add_fact(self, fact):
 		self.facts.append(fact)
 
-	def add_image(self, img_url):
+	def set_image(self, img_url):
 		self.image = img_url
-
-#	def add_text(self, text):
-#		self.text = text
 
 	def set_kind(self, kind):
 		self.kind = kind
@@ -94,12 +91,12 @@ class Building:
 			type_card = Card()
 			if card.attributes['type'].value == "spring_fling":
 				type_card.set_kind("spring_fling")
-				type_card.add_image(card.getElementsByTagName("image")[0].attributes['url'].value)
+				type_card.set_image(card.getElementsByTagName("image")[0].attributes['url'].value)
 				type_card.add_fact(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
 			elif card.attributes['type'].value == "secret_agent":
 				type_card.set_kind("secret_agent")
 				#type_card.set_kind("secret_agent_num2")
-				type_card.add_image(card.getElementsByTagName("image")[0].attributes['url'].value)
+				type_card.set_image(card.getElementsByTagName("image")[0].attributes['url'].value)
 				for text in card.getElementsByTagName("text"):
 					type_card.add_fact(text.childNodes[0].nodeValue)
 			elif card.attributes['type'].value == "paragraph":
@@ -107,7 +104,7 @@ class Building:
 				type_card.add_fact(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
 			elif card.attributes["type"].value == "modified_abe":
 				type_card.set_kind("modified_abe")
-				type_card.add_image(card.getElementsByTagName("image")[0].attributes['url'].value)
+				type_card.set_image(card.getElementsByTagName("image")[0].attributes['url'].value)
 				type_card.add_fact(card.getElementsByTagName("text")[0].childNodes[0].nodeValue)
             else:
                 type_card.set_kind("error")
@@ -158,7 +155,7 @@ class NotifyHandler(webapp2.RequestHandler):
                         html += myHtml.format(card.facts[0])
 
 		else:
-			html = 'Lyon Tracks says you are at {0} by {1}.'.format(latitude, longitude)
+			html = '<article>Lyon Tracks says you are at {0} by {1}</article>.'.format(latitude, longitude)
 		logging.info("Posting location HTML to the Glass: %s", html)
 		body = {
 		'html': html,
