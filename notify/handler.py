@@ -138,21 +138,21 @@ class NotifyHandler(webapp2.RequestHandler):
 			logging.info("Located user at %s", building.name)
 			html = ""
 			for card in building.cards:
-                if card.kind == "error":
-                    logging.info("card kind type error")
-                else:
-                    f = open('./html_templates/' + card.kind + '.html', 'r')
-                    myHtml = f.read()
-                    f.close()
+				if card.kind == "error":
+					logging.info("card kind type error")
+				else:
+					f = open('./html_templates/' + card.kind + '.html', 'r')
+					myHtml = f.read()
+					f.close()
 
-                    if card.kind == "spring_fling":
-                        html += myHtml.format(card.image, card.facts[0])
-                    elif card.kind == "secret_agent":
-                        html += myHtml.format(card.image, card.facts[0], card.facts[1])
-                    elif card.kind == "modified_abe":
-                        html += myHtml.format(card.image, card.facts[0])
-                    elif card.kind == "paragraph":
-                        html += myHtml.format(card.facts[0])
+					if card.kind == "spring_fling":
+						html += myHtml.format(card.image, card.facts[0])
+					elif card.kind == "secret_agent":
+						html += myHtml.format(card.image, card.facts[0], card.facts[1])
+					elif card.kind == "modified_abe":
+						html += myHtml.format(card.image, card.facts[0])
+					elif card.kind == "paragraph":
+						html += myHtml.format(card.facts[0])
 
 		else:
 			html = '<article>Lyon Tracks says you are at {0} by {1}</article>.'.format(latitude, longitude)
