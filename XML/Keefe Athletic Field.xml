@@ -3,15 +3,14 @@
 	<card type="spring_fling">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/keefe_field_big_2-122x122.jpg"></image>
         <text>Keefe Athletic Field</text>
-    </card
+    </card>
         <card type ="spring_fling">
         <image url="http://athletics.wheatoncollege.edu/information/facilities/keefe/msoc_keefe1.jpg"></image>
         <text>Home of Men's Soccer</text>
+    </card>
     <card type ="modified_abe">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/Keefie-field_28-122x122.jpg"></image>
-        <text> "Trustee Harry V. Keefe made the renovations possible in memory of his first wife Jean Mulcahy Keefe"></text>
-    </card>
-
+        <text>"Trustee Harry V. Keefe made the renovations possible in memory of his first wife Jean Mulcahy Keefe."</text>
     </card>
     
 </building>

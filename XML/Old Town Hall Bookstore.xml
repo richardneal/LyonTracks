@@ -6,7 +6,7 @@
     </card>
     <card type ="secret_agent">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/book_2.jpg"></image>
-        <text>Harriet Augusta Newcomb presented the Old Town Hall to the town in 1882</text> <!-- need to reword -->
+        <text>Harriet Augusta Newcomb presented the Old Town Hall to the town in 1882.</text> <!-- need to reword -->
         <text>The Building acted as a community center, holding various events.</text>
     </card>
     <card type ="modified_abe">
@@ -16,7 +16,7 @@
     <card type ="secret_agent">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/book_2.jpg"></image> 
         <text>The college bought the building in 1982 and used it as storage.</text>
-        <text>The College sold the building in 1986 to only be bought back in 1990</text>
+        <text>The College sold the building in 1986 to only be bought back in 1990.</text>
     </card>
     <card type="spring_fling">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/book_2.jpg"></image>
