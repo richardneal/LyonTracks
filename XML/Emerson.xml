@@ -7,17 +7,15 @@
     
     <card type = "modified_abe">
 	<image url="http://wheatoncollege.edu/college-history/files/2011/01/emerson_dining_3.jpg"></image>
-	<text> built in 1908</text>
+	<text>Built in 1908</text>
     </card>
     <card type ="modified_abe">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/Emerson_8.jpg"></image>
-        <text>  Emerson Dining Hall appeared in Good Housekeeping Magazine as one of the most beautiful dining halls in the U.S.</text>
+        <text>Emerson Dining Hall appeared in Good Housekeeping Magazine as one of the most beautiful dining halls in the U.S.</text>
     </card>  
-    
-    </card>
-        <card type = "secret_agent">
+    <card type = "secret_agent">
 	<image url="http://wheatoncollege.edu/college-history/files/2011/01/Emerson_10.jpg"></image>
-	<text> An addition was built to connect Emerson with Everett Hall in 1926</text>
-	<text> In 1950, the Faculty Dining Room was added in the back</text>
+	<text>An addition was built to connect Emerson with Everett Hall in 1926</text>
+	<text>In 1950, the Faculty Dining Room was added to the back</text>
     </card>
 </building>

@@ -7,15 +7,13 @@
     
     <card type = "modified_abe">
 	<image url="http://wheatoncollege.edu/college-history/files/2011/01/park_hall_interior_1.jpg"></image>
-	<text> Built to be the administration building in 1934</text>
+	<text>Built to be the administration building in 1934.</text>
     </card>
     <card type ="modified_abe">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/ParkHall_1.jpg"></image>
-        <text> the building remained unnamed until its re-dedication in 1954 in honor of the Rev. John Edgar Park, President of Wheaton from 1926 to 1944</text>
+        <text>The building remained unnamed until its re-dedication in 1954 in honor of the Rev. John Edgar Park, President of Wheaton from 1926 to 1944.</text>
     </card>  
-    
-    </card>
-        <card type = "paragraph">
-	<text> The original design included post office, bookstore, administrative offices for president, deans, registrar, admissions, and treasurer; and 21 bedrooms or suites for the secretarial staff</text>
+    <card type = "paragraph">
+	<text>The original design included post office, bookstore, administrative offices for president, deans, registrar, admissions, and treasurer; and 21 bedrooms or suites for the secretarial staff.</text>
     </card>
 </building>
