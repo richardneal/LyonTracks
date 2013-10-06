@@ -9,6 +9,10 @@ handlers:
   static_dir: static
   secure: always
 
+- url: /
+  static_dir: LyonTracks
+
+
 - url: /.*
   script: main.app
   secure: always
