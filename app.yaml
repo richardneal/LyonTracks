@@ -9,11 +9,12 @@ handlers:
   static_dir: static
   secure: always
 
-
-# this is what pushes our website to appspot
 - url: /
-  static_dir: LyonTracks
+  static_files: LyonTracks/index.html
+  upload: LyonTracks/index.html
 
+- url: /
+  static_dir: LyonTracks/
 
 - url: /.*
   script: main.app
