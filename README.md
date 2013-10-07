@@ -34,3 +34,7 @@ Public Safety needs images
 need a new Wheaton college xml.
 
 the white house needs an image.
+
+Group name:
+
+It helps to imagine that the Glass interface as a row of cards that wraps around your head. Cards can contain activity history, content, and other notifications. Using your finger to swipe the touchpad, you can move forward and backward through your cards. To swipe through your cards, start at the Home screen.
