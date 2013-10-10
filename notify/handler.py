@@ -27,7 +27,8 @@ from oauth2client.appengine import StorageByKeyName
 from model import Credentials
 import util
 
-import coordinates
+import urllib
+import urllib2
 
 
 class Card:
@@ -46,39 +47,18 @@ class Card:
 
 class Building:
 	def __init__(self, latitude, longitude):
-		for key, value in coordinates.latlongpoints.iteritems():
-			if self.point_in_poly(latitude, longitude, key):
-				self.name = value
-				self.cards = []
+		location = {'latitude': latitude, 'longitude': longitude}
+		data = urllib.urlencode(location)
+		req = urllib2.Request('http://campusdirect.herokuapp.com/location', data)
+		response = urllib2.urlopen(req)
+		response_info = response.read()
 
-				self.get_xml_data()
-				break
+		self.name = response_info['building']
+		self.cards = []
+		self.get_xml_data()
 
 	def add_card(self, card):
 		self.cards.append(card)
-
-	def point_in_poly(self, x, y, poly):
-		# Determine if a point is inside a given polygon or not
-		# Polygon is a list of (x,y) pairs. This function
-		# returns True or False.  The algorithm is called
-		# the "Ray Casting Method".
-
-		n = len(poly)
-		inside = False
-
-		p1x, p1y = poly[0]
-		for i in range(n + 1):
-			p2x, p2y = poly[i % n]
-			if y > min(p1y, p2y):
-				if y <= max(p1y, p2y):
-					if x <= max(p1x, p2x):
-						if p1y != p2y:
-							xints = (y - p1y) * (p2x - p1x) / (p2y - p1y) + p1x
-						if p1x == p2x or x <= xints:
-							inside = not inside
-			p1x, p1y = p2x, p2y
-
-		return inside
 
 	def get_xml_data(self):
 		try:
