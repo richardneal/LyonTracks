@@ -14,7 +14,7 @@ handlers:
   static_files: LyonTracks/index.html
   upload: LyonTracks/index.html
 
-- url: /LyonTracks
+- url: /LyonTracks/
   static_dir: LyonTracks/
 
 - url: /.*
