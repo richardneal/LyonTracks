@@ -1,7 +1,7 @@
-Alicia is a senior with a double major in Math and Computer Science and a minor in Ethnomusicology at Wheaton. <br>
+<p>Alicia is a senior with a double major in Math and Computer Science and a minor in Ethnomusicology at Wheaton. <br></p>
 
-She's also worked as a software developer with the <a href="http://wheatoncollege.edu/lexomics/" target="_blank">Wheaton Lexomics</a> team, and is an active member of the <a href="http://wheatoncollege.edu/whale/" target= "_blank"> Wheaton Whale</a> lab.<br>
+<p>She's also worked as a software developer with the <a href="http://wheatoncollege.edu/lexomics/" target="_blank">Wheaton Lexomics</a> team, and is an active member of the <a href="http://wheatoncollege.edu/whale/" target= "_blank"> Wheaton Whale</a> lab.<br></p>
 
-In her free time she plays piano, board games, and applies to jobs. <br>
+<p>In her free time she plays piano, board games, and applies to jobs. </p>
 
-In draft format, her favorite guild is Rakdos because it reflects her personality. To show her softer side, she plays Simic on the weekends. 
+<p>In draft format, her favorite guild is Rakdos because it reflects her personality. To show her softer side, she plays Simic on the weekends. </p>
