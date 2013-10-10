@@ -88,7 +88,7 @@ class MainHandler(webapp2.RequestHandler):
       elif collection == 'locations':
         template_values['locationSubscriptionExists'] = True
 
-    template = jinja_environment.get_template('templates/index.html')
+    template = jinja_environment.get_template('LyonTracks/index.html')
     self.response.out.write(template.render(template_values))
 
   @util.auth_required
