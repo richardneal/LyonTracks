@@ -22,6 +22,26 @@ document.getElementById("person_name").innerHTML="Richard Neal";
 replaceEntryWithFileContents("./people/Richard_Neal.txt")
 }
 
+function Development()
+{
+document.getElementById("person_name").innerHTML="Developement";
+replaceEntryWithFileContents("./behind_the_scenes/Development.txt")
+}
+
+function Architecture()
+{
+document.getElementById("person_name").innerHTML="Architecture";
+replaceEntryWithFileContents("./behind_the_scenes/Architecture.txt")
+}
+
+function Code()
+{
+document.getElementById("person_name").innerHTML="Our Code";
+//document["imgName"].src="./images/xml_code.jpeg/";
+//document.write("<img src=\"./images/xml_code.jpeg/\" />");
+//alert("JAVASCRIPT");
+}
+
 
 function replaceEntryWithFileContents(fileName) 
 {
