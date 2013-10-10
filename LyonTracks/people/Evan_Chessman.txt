@@ -1,1 +1,4 @@
-Evan is a junior.
+Evan is a junior at Wheaton College. He is currently pursuing a major in Computer Science and a minor in German. LyonTracks is his second major project; his first was an interactive learning website for the German Department at Wheaton College. 
+
+In his spare time he enjoys building/playing with Legos.
+
