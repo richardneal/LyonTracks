@@ -10,7 +10,7 @@ handlers:
   secure: always
 
 
-- url: /LyonTracks
+- url: /LyonTracks/
   static_files: LyonTracks/index.html
   upload: LyonTracks/index.html
 
