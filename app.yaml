@@ -9,12 +9,13 @@ handlers:
   static_dir: static
   secure: always
 
-#- url: /
-#  static_files: LyonTracks/index.html
-#  upload: LyonTracks/index.html
-#
-#- url: /
-#  static_dir: LyonTracks/
+
+- url: /LyonTracks
+  static_files: LyonTracks/index.html
+  upload: LyonTracks/index.html
+
+- url: /LyonTracks
+  static_dir: LyonTracks/
 
 - url: /.*
   script: main.app
