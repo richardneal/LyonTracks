@@ -51,9 +51,8 @@ class Building:
 		data = urllib.urlencode(location)
 		req = urllib2.Request('http://campusdirect.herokuapp.com/location', data)
 		response = urllib2.urlopen(req)
-		response_info = response.read()
-
-		self.name = response_info['building']
+		data=json.load(response)
+		self.name = data['building']
 		self.cards = []
 		self.get_xml_data()
 
@@ -96,16 +95,16 @@ class NotifyHandler(webapp2.RequestHandler):
 
 	def post(self):
 		"""Handles notification pings."""
-		f = open('./output_text', 'r')
-		html= f.read()
-		f.close()
-		body = {
-		'html': html,
-		'location': location,
-		#'menuItems': [{'action': 'NAVIGATE'}],
-		'notification': {'level': 'DEFAULT'}
-		}
-		self.mirror_service.timeline().insert(body=body).execute()
+		#f = open('./output_text', 'r')
+		#html= f.read()
+		#f.close()
+		#body = {
+		#'html': html,
+		#'location': location,
+		##'menuItems': [{'action': 'NAVIGATE'}],
+		#'notification': {'level': 'DEFAULT'}
+		#}
+		#self.mirror_service.timeline().insert(body=body).execute()
 		logging.info('Got a notification with payload %s', self.request.body)
 		data = json.loads(self.request.body)
 		userid = data['userToken']
