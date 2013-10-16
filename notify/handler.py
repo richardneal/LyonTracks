@@ -27,7 +27,6 @@ from oauth2client.appengine import StorageByKeyName
 from model import Credentials
 import util
 
-import urllib
 import urllib2
 
 
@@ -47,12 +46,9 @@ class Card:
 
 class Building:
 	def __init__(self, latitude, longitude):
-		location = {'latitude': latitude, 'longitude': longitude}
-		data = urllib.urlencode(location)
-		req = urllib2.Request('http://campusdirect.herokuapp.com/location', data)
+		req = urllib2.Request('http://wheatonlocationapi.herokuapp.com/{0}/{1}'.format(latitude, longitude))
 		response = urllib2.urlopen(req)
-		data=json.load(response)
-		self.name = data['building']
+		self.name = response.read()
 		self.cards = []
 		self.get_xml_data()
 
