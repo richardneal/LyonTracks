@@ -6,6 +6,7 @@
     <card type="secret_agent">
         <image url=""></image>
         <text>The Mars Center for Science and Technology opened with the official dedication ceremony on September 23, 2012.</text>
+        <text>Needs fact!!!</text>
     </card>
     <card type="modified_abe">
         <image url="http://wheatoncollege.edu/whale/files/2012/07/printing_johnsonsolid_60.jpg"></image>
@@ -14,6 +15,7 @@
     <card type="secret_agent">
         <image url="http://wheatoncollege.edu/quarterly/files/2011/12/12-W-feature-sciCenter-1.jpg"></image>
         <text>The Mars Center for Science and Technology has been designed to achieve a prestigious LEED (Leadership in Energy and Environmental Design) silver certification from the U.S. Green Building Council.</text>
+        <text>Needs fact!!!</text>
     </card>
     <!--
     <card type="paragraph">
