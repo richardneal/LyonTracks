@@ -65,41 +65,14 @@ class _BatchCallback(object):
 class MainHandler(webapp2.RequestHandler):
   """Request Handler for the main endpoint."""
 
-  def _render_template(self, message=None):
-    #"""Render the main page template."""
-    #template_values = {'userId': self.userid}
-    #if message:
-    #  template_values['message'] = message
-    ## self.mirror_service is initialized in util.auth_required.
-    #try:
-    #  template_values['contact'] = self.mirror_service.contacts().get(
-    #    id='Python Quick Start').execute()
-    #except errors.HttpError:
-    #  logging.info('Unable to find Python Quick Start contact.')
-
-    #timeline_items = self.mirror_service.timeline().list(maxResults=3).execute()
-    #template_values['timelineItems'] = timeline_items.get('items', [])
-
-    #subscriptions = self.mirror_service.subscriptions().list().execute()
-    #for subscription in subscriptions.get('items', []):
-    #  collection = subscription.get('collection')
-    #  if collection == 'timeline':
-    #    template_values['timelineSubscriptionExists'] = True
-    #  elif collection == 'locations':
-    #    template_values['locationSubscriptionExists'] = True
-
-    #template = jinja_environment.get_template('templates/index.html')
-    #self.response.out.write(template.render(template_values))
-
-	self.redirect('LyonTracks/');
-
-  @util.auth_required
+  #@util.auth_required
   def get(self):
     """Render the main page."""
+    self.redirect('LyonTracks/')
     # Get the flash message and delete it.
-    message = memcache.get(key=self.userid)
-    memcache.delete(key=self.userid)
-    self._render_template(message)
+    #message = memcache.get(key=self.userid)
+    #memcache.delete(key=self.userid)
+    #self._render_template(message)
 
   @util.auth_required
   def post(self):
