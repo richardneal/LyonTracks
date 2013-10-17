@@ -50,6 +50,7 @@ class Building:
 		response = urllib2.urlopen(req)
 		self.name = response.read()
 		self.cards = []
+		print "the building name is: " + self.name
 		self.get_xml_data()
 
 	def add_card(self, card):

@@ -8,11 +8,11 @@
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/observatory_2.jpg"></image>
         <text>Designed and built in 1917 by Wheaton workmen.</text>
         <text>The location was chosen because it afforded an excellent horizon.</text>
-        <!--<text>Test</text>-->
+    
     </card>
     <card type ="spring_fling">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/Science_4.jpg"></image>
-        <text>Probably the best science center ever.</text> <!-- not a science center-->
+        <text>Acquired in 1913, the telescope provided us with stellar photometer for use in the study of variable stars.</text> 
     </card>
     
 </building>
