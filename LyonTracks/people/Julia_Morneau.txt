@@ -1,1 +1,3 @@
-Julia is a sophomore.
+<p>Julia is a sophomore at Wheaton College and is currently a double major in Math and Computer Science</p>
+<p>She has worked as a software developer on the <a href="http://cs.wheatoncollege.edu/lexos" target="_blank">Lexos</a> team at Wheaton College. </p>
+<p>Julia is a Defensive Midfield player on the Varsity Wheaton Field Hockey team and an active tutor at the local elementary school. She enjoys sitting and watching boats drive by in her spare time.</p>
