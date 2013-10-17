@@ -1,5 +1,6 @@
 Lyon Tracks!
 
+
 Rules for deploying:
 Push to GitHub first!
 Then deploy with the App Engine Launcher.
@@ -35,6 +36,8 @@ need a new Wheaton college xml.
 
 the white house needs an image.
 
-Group name:
+Group name: Lyon's Pride
 
 It helps to imagine that the Glass interface as a row of cards that wraps around your head. Cards can contain activity history, content, and other notifications. Using your finger to swipe the touchpad, you can move forward and backward through your cards. To swipe through your cards, start at the Home screen.
+
+imgur: http://imgur.com/a/HBy8r
