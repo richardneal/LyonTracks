@@ -15,6 +15,7 @@
         <image url="http://wheatoncollege.edu/quarterly/files/2011/12/12-W-feature-sciCenter-1.jpg"></image>
         <text>The Mars Center for Science and Technology has been designed to achieve a prestigious LEED (Leadership in Energy and Environmental Design) silver certification from the U.S. Green Building Council.</text>
     </card>
+    <!--
     <card type="paragraph">
         <text>LEED measures buildings in five key areas:
             <br/>• Sustainable site development
@@ -22,7 +23,7 @@
             <br/>• Energy efficiency
             <br/>• Materials selection
             <br/>• Indoor environmental quality</text>
-    </card>
+    </card> -->
     <card type="modified_abe">
         <image url="http://i0.wp.com/wheatoncollege.edu/mars-science/files/2011/09/CIMG2300.jpg?resize=600%2C450"></image>
         <text>The boulders in the courtyard were a vision by the architect, specially selected by geology professors at Wheaton.</text>
