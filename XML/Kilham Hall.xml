@@ -12,10 +12,11 @@
 	<image url="http://wheatoncollege.edu/college-history/files/2011/02/kilham_5-122x122.jpg"></image>
         <text>In 1933, when New Metcalf Hall was constructed, the two dormitories were connected via Hebe Parlors.</text>
     </card>
-    <card type ="secret_agent">
+    <card type ="modified_abe">
 	<image url="http://wheatoncollege.edu/college-history/files/2011/02/Kilham_4.jpg"></image>
 	<text>Kilham was named for Annie March Kilham, class of 1870.</text>
-	<text>She remained at the Seminary to teach Latin, English, German, Mathematics, Natural Philosophy and Astronomy.</text>
     </card>
-    
+    <card type="paragraph">
+		<text>She remained at the Seminary to teach Latin, English, German, Mathematics, Natural Philosophy and Astronomy.</text>
+	</card>
 </building>
