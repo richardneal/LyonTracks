@@ -1,20 +1,18 @@
 <building name="Counseling Center">
     <card type="spring_fling">
-        <image url="
+        <image url="http://i.imgur.com/Ym222lbh.jpg
         "></image>
         <text>
 Counseling Center
         </text>
     </card>
-    <card type="modified_abe">
-        <image url="
-        "></image>
+    <card type="paragraph">
         <text>
 The counseling center provides a safe, supportive environment in which students can explore the inevitable problems and conflicts they will encounter in their young adult years.
         </text>
     </card>
     <card type="modified_abe">
-        <image url="
+        <image url="http://i.imgur.com/gTcnBfWh.jpg
         "></image>
         <text>
 Counseling services are confidential and free of charge to all Wheaton students.
