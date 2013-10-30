@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <building name="Sidell Stadium">
 	<card type="spring_fling">
-        <image url="http://athletics.wheatoncollege.edu/information/facilities/sidell/sidell.jpg?max_height=450&max_width=600"></image>
+        <image url="http://athletics.wheatoncollege.edu/information/facilities/sidell/sidell.jpg"></image>
         <text>Sidell Stadium</text>
     </card>
     <card type ="modified_abe">
