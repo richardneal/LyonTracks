@@ -11,7 +11,11 @@
     </card>
     <card type ="modified_abe">
         <image url="http://wheatoncollege.edu/college-history/files/2010/09/chapin_2.jpg"></image>
-        <text>The building was named in 1901 for the late Samuel Austin Chapin, brother of Mrs. Wheaton, and a Trustee from 1889-1890.</text>
+        <text>The building was named in 1901 for the late Samuel Austin Chapin, brother of Mrs. Wheaton.</text>
     </card>
+	<card type="paragraph">
+		<text>Like the majority of upper campus, Chapin is used to house mostly upperclassman
+		</text>
+	</card>
     
 </building>
