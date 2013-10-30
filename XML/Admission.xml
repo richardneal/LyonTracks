@@ -12,7 +12,7 @@
     <card type ="secret_agent">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/Gym_4.jpg"></image>
         <text>First built as a gymnasium.</text>
-	<text>Then converted to the Admission Center in 1966.</text>
+		<text>Then converted to the Admission Center in 1966.</text>
     </card>  
     <card type = "modified_abe">
 	<image url="http://wheatoncollege.edu/college-history/files/2011/01/Gymnasium_24.jpg"></image>
