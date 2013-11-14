@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <building name="Clark Athletic Field">
 	<card type="spring_fling">
-        <image url="http://wheatoncollege.edu/college-history/files/2011/02/baseball_field_2-122x122.jpg"></image>
+        <image url="http://wheatoncollege.edu/college-history/files/2011/02/baseball_field_2.jpg"></image>
         <text>Clark Athletic Field</text>
     </card>
     <card type ="modified_abe">
-        <image url="http://wheatoncollege.edu/college-history/files/2011/01/tennis_courts_1-122x122.jpg"></image>
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/tennis_courts_1.jpg"></image>
         <text>Home of Baseball, Softball, and Outdoor Tennis Courts.</text>
     </card>
     <card type ="modified_abe">
-	<image url="http://wheatoncollege.edu/college-history/files/2011/02/baseball_field_1-122x122.jpg"></image>
+	<image url="http://wheatoncollege.edu/college-history/files/2011/02/baseball_field_1.jpg"></image>
         <text>Replaced smaller units scattered across the campus.</text>
     </card>
 
