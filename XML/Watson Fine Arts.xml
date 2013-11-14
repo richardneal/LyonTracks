@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
 <building name="Watson Fine Arts">
 	<card type="spring_fling">
-        <image url="http://wheatoncollege.edu/college-history/files/2011/01/watson_front_1-122x122.jpg"></image>
+        <image url="http://wheatoncollege.edu/college-history/files/2011/01/watson_front_1.jpg"></image>
         <text>Watson Fine Arts</text>
     </card>
+	<card type="paragraph">
+		<text> Watson is used for classes in music, dance and theatre, and also houses an art gallery and auditorium for performances. </text>
+	</card>
 </building>
