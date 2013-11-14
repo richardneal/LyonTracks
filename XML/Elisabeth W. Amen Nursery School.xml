@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <building name="Elisabeth W. Amen Nursery School">
 	<card type="spring_fling">
-        <image url="http://wheatoncollege.edu/nursery-school/files/2010/08/nursery_building-220x165.jpg"></image>
+        <image url="http://wheatoncollege.edu/nursery-school/files/2010/08/nursery_building.jpg"></image>
         <text>Elisabeth W. Amen Nursery School</text>
     </card>
-    <card type ="modified_abe">
-        <image url="http://wheatoncollege.edu/college-history/files/2010/09/chapin_6.jpg"></image>
+    <card type ="paragraph">
         <text>This Nursery School is affiliated with Wheaton College's Psychology department, and has been a site for child study and research since 1931</text>
     </card>
 </building>
