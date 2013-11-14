@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <building name="Young Hall">
 	<card type="spring_fling">
-        <image url="http://wheatoncollege.edu/college-history/files/2011/02/Young_4-122x122.jpg"></image>
+        <image url="http://wheatoncollege.edu/college-history/files/2011/02/Young_4.jpg"></image>
         <text>Young Hall</text>
     </card>
     <card type ="secret_agent">
-        <image url="http://wheatoncollege.edu/college-history/files/2011/02/Young_2-122x122.jpg"></image> 
+        <image url="http://wheatoncollege.edu/college-history/files/2011/02/Young_2.jpg"></image> 
         <text>First building on Lower Campus.</text>
         <text>Dedicated to Sarah Belle Young.</text>
     </card>
