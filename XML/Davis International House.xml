@@ -4,11 +4,9 @@
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/cultural_1.jpg"></image>
         <text>Davis International House</text>
     </card>
-    <card type ="secret_agent">
+    <card type ="modified_abe">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/cultural_2.jpg"></image>
-        <text>The attached carriage house was once the "Campus Shop".</text>
-        <text>The "Campus Shop" was utilized form 1948 until 1992.</text>
-        <text>After 1992 the Davis House was used as faculty housing.</text>
+        <text>The attached carriage house was the "Campus Shop" from 1948 until 1992.</text>
     </card>
     <card type ="spring_fling">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/cultural_1.jpg"></image>
