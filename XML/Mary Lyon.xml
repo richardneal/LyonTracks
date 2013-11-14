@@ -2,26 +2,19 @@
 
 <building name="Mary Lyon Hall">
 		<card type="spring_fling">
-            <image url="./Images/mary_lyon_1.jpg"></image>
+            <image url="http://i.imgur.com/GEs0r7qh.jpg"></image>
             <text>Mary Lyon</text>
         </card>
-        <!--<card type="facts">
-			<text>Built in 1849.</text>
-			<text>Mary Lyon was originally named Seminary Hall.</text>
-			<text>In 1878, the building was expanded to its current size.</text>
-		</card>
-		<card type="facts">
-			<text>Seminary Hall originally held all of the classes at Wheaton.</text>
-			<text></text>
-			<text>Test 3</text>
-		</card>-->
-        <card type ="secret_agent">
-            <image url="./Images/mary_lyon_1885.jpg"></image>
+		<card type="modified_abe">
+            <image url="http://i.imgur.com/I6NIh8G.jpg"></image>
             <text>Built in 1849, Mary Lyon was originally named New Seminary Hall.</text>
+		</card>
+        <card type ="modified_abe">
+            <image url="http://i.imgur.com/tCxOZxS.jpg"></image>
             <text>All academics were held in Mary Lyon until the addition of Knapton in 1911.</text>
         </card>
         <card type ="spring_fling">
-            <image url="./Images/mary_lyon_stairs_1.jpg"></image>
+            <image url=""></image>
             <text>The building is currently used for some larger seminars and exams.</text>
         </card>
         
