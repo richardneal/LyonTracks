@@ -6,12 +6,10 @@
     </card>
     <card type ="secret_agent">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/observatory_2.jpg"></image>
-        <text>Designed and built in 1917 by Wheaton workmen.</text>
+        <text>Built in 1917</text>
         <text>The location was chosen because it afforded an excellent horizon.</text>
-    
     </card>
-    <card type ="spring_fling">
-        <image url="http://wheatoncollege.edu/college-history/files/2011/01/Science_4.jpg"></image>
+    <card type ="paragraph">
         <text>Acquired in 1913, the telescope provided us with stellar photometer for use in the study of variable stars.</text> 
     </card>
     
