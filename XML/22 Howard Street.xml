@@ -12,7 +12,12 @@ http://wheatoncollege.edu/college-history/files/2011/02/22Howard_2.jpg
 http://wheatoncollege.edu/college-history/files/2011/02/22Howard_1.jpg
         "></image>
         <text>
-Purchased in 1947 from the Sweet family and for many years used as a residence for administrators or faculty, Sweet is now a student house.
+Purcharse in 1947 from the Sweet family and for many years used as a residence for administrators or faculty 
         </text>
     </card>
+	<card type="paragraph">
+		<text>
+Sweet is now a student house.
+		</text>
+	</card>
 </building>
