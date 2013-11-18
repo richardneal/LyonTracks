@@ -8,4 +8,16 @@
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/Chase_4.jpg"></image>
         <text>Chase Round was built in 1959.</text>
     </card>
+	<card type = "modified_abe">
+		<image url="">
+		</image>
+		<text>
+			Chase is one of the two major dining halls on campus.
+		</text>
+	</card>
+	<card type="paragraph">
+		<text>
+			Chase is open every night until midnight, and offers a wide selection of foods, ranging from an extensive salad bar, made-to-order burgers on the grill.
+		</text>
+	</card>
 </building>
