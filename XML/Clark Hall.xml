@@ -9,4 +9,15 @@
         <text>Built in 1960.</text>
         <text>Dedicated to Kate Upson Clark.</text>
     </card>
+	<card type="modified_abe">
+		<image url=""></image>
+		<text>
+			Clark serves as a residence hall, housing mostly freshman.
+		</text>
+	</card>
+	<card type="paragraph">
+		<text>
+			Periodic hall meetings, set up by resident advisors, allow new students to meet one another in a fun and safe environment. 
+		</text>
+	</card>
 </building>
