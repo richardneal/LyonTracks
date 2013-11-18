@@ -18,7 +18,12 @@
     <card type ="paragraph">
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/Knapton_6.jpg"></image>
         <text>In 1971, the building was redesigned as a center for the social sciences, and renamed Knapton Hall in honor of Dr. Ernest John Knapton, Professor of History from 1931 to 1969.</text>
-
     </card>
+	<card type ="paragraph">
+		<text>
+			Knapton still holds classes and smaller discussions for classes such as Economics, Anthropology and Psychology. 
+		</text>
+	</card>
+		
     
 </building>
