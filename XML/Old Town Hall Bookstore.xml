@@ -22,5 +22,10 @@
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/book_2.jpg"></image>
         <text>Old Town Hall Bookstore opened in 1992.</text>
     </card>
+	<card type="paragraph">
+		<text>
+			Now, the Old Town Hall Bookstore is a convienient place for students to buy or rent their books for the semester, as well as buy anything else, ranging from school spirit apparel to toothbrushes to paper and pens. 
+		</text>
+	</card>
     
 </building>
