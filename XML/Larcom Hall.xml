@@ -15,4 +15,10 @@
         <image url="http://wheatoncollege.edu/college-history/files/2011/01/Larcom_5.jpg"></image>
         <text>The chimneys seemed too tall in proportion, and they were lowered it to a "respectable" height in 1939.</text>
     </card>  
+	<card type="modified_abe">
+		<image url=""></image>
+		<text> 
+			Larcom is one of the wellness dorms on campus, aimed at mostly upperclassman who choose to live substance free. 
+		</text>
+	</card>
 </building>
