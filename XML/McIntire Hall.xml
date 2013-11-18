@@ -9,5 +9,9 @@
         <text>The second residence hall to be built on lower campus.</text>
         <text>Named after Walter Oscar McIntire.</text>
     </card>
-
+	<card type="paragraph">
+		<text>
+			McIntire, much like Young and Clark surrounding it, houses mostly underclassmen, making it a great place to live and meet new friends Freshman year. 
+		</text>
+	</card>
 </building>
