@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <building name="MacIntire Hall">
 	<card type="spring_fling">
-        <image url="http://wheatoncollege.edu/college-history/files/2011/02/mcintire_back_1-122x122.jpg"></image>
+        <image url="http://wheatoncollege.edu/college-history/files/2011/02/mcintire_back_1.jpg"></image>
         <text>McIntire Hall</text>
     </card>
     <card type ="secret_agent">
