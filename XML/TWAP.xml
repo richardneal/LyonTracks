@@ -1,0 +1,14 @@
+<building name="TWAP">
+    <card type="spring_fling">
+        <image url="http://i.imgur.com/PHAgwn1h.jpg"></image>
+        <text>T.W.A.P - Together We All Prosper</text>
+    </card>
+     <card type="modified_abe">
+        <image url="http://i.imgur.com/Adv3cq7h.jpg"></image>
+        <text>Our goal is to build strong, educated men for the future</text>
+    </card>
+    <card type="paragraph">
+        <text>Students from low-income, urban backgrounds building a bond with eachother and the community</text>
+    </card>
+   
+</building>
