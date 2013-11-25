@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
 <building name="Mars Arts and Humanities">
 	<card type="spring_fling">
-        <image url="http://wheatoncollege.edu/exhibit-mim/files/2011/06/mars-exterior.jpg"></image>
+        <image url="
+http://i.imgur.com/2o7RyoSh.jpg
+		"></image>
         <text>Mars Arts and Humanities</text>
     </card>
 	<card type="paragraph">
