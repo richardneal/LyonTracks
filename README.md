@@ -42,9 +42,9 @@ It helps to imagine that the Glass interface as a row of cards that wraps around
 
 imgur: http://imgur.com/a/HBy8r
 
-http://imgur.com/a/LKMON
+http://imgur.com/a/LKMON -art house through public safety
 
-http://imgur.com/a/ICJDV
+http://imgur.com/a/ICJDV -loft
 
 http://imgur.com/a/pjBSk -mars, chase, lower campus 
 
